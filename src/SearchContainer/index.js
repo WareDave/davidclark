@@ -37,13 +37,13 @@ class SearchContainer extends Component {
     render() {
         return(
         <main>
-            <div class="navbar-fixed">
+            <div class="navbar-fixed red">
        
             <nav>
-     <div class="nav-wrapper">
+     <div class="nav-wrapper red darken-4">
      <div class="col s12">
-        <a href="/" class="black-text">[ DaveHome ] </a>
-      <a href="https://giphy.com/" class="brand-logo black-text"><i class="large material-icons">chevron_right</i>[ Giphy ]</a>
+        <a href="/" class="black-text center">[ DaveHome ] </a>
+      <a href="https://giphy.com/" class="brand-logo black-text center"><i class="large material-icons">chevron_right</i>[ Giphy ]</a>
       
       <ul id="nav-mobile" class="right hide-on-med-and-down">
        <li><Link class="black-text" to="/">Home</Link></li> 
