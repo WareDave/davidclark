@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-import Preloader from './components/Preloader'
+// import Preloader from './components/Preloader'
 import M from "materialize-css"; 
 import './App.css'
 const $ = window.$;
@@ -499,7 +499,7 @@ while ans:<br/>
                <i class = "material-icons">insert_emoticon</i>Friends</div>
             <div class = "collapsible-body center-align"><p>
                   hold your breath!<br/>
-                  <Preloader /> 
+                  {/* <Preloader />  */}
             </p></div>
          </li>
       </ul>	 

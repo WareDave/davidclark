@@ -28,6 +28,35 @@
   color: #61dafb;
 }
 
+
+.material-icons {
+  font-size: 20px;
+  color: rgb(26, 3, 14);
+}
+body {
+  font-family: 'Trochut', cursive;
+  font-size: 30px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(91,3,3,1) 35%, rgba(0,0,0,1) 100%);
+  color: goldenrod;
+  
+}
+
+
+main {
+  font-family: 'Trochut', cursive;
+  flex: 1 0 auto;
+}
+
+li {
+ font-size: 30px;
+  color: goldenrod;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
