@@ -58,7 +58,7 @@ class App extends Component {
     <div class="nav-wrapper red darken-4">
       <a href="https://www.linkedin.com/in/dave-the-clark/" class="brand-logo center black-text">[ DaveHome ]</a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
-      <li><a class="waves-effect waves-light btn-floating red">GA</a></li>
+      <li><a href="https://profiles.generalassemb.ly/profiles/david-clark" class="waves-effect waves-light btn-floating red"><i class="fa fa-gear"></i></a></li>
         
       </ul>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -88,7 +88,7 @@ class App extends Component {
  
  <div class="carousel carousel-slider center">
     <div class="carousel-fixed-item center">
-      <a class="btn waves-effect waves-purple white black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">WareDave github</a>
+      <a class="btn waves-effect waves-purple white black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">WareDave <i class="fa fa-github"></i></a>
     </div>
     <div class="carousel-item grey darken-4 white-text" href="/">
     <h1 className="header pink-text">[ David L. Clark ]</h1>
@@ -121,7 +121,7 @@ class App extends Component {
               
     </div>
     <div class="carousel-item black white-text" href="#four!">
-      <h2>come see me on <a href="https://www.linkedin.com/in/dave-the-clark/">linkedIn</a></h2>
+      <h2>come see me on <a href="https://www.linkedin.com/in/dave-the-clark/" class="fa fa-linkedin"></a></h2>
       <h1 class="pink-text">Or On GA <a href="https://profiles.generalassemb.ly/profiles/david-clark">Profiles</a></h1>
       need a Dev Wizard email me direct at<br/>
       davetheclark87@gmail.com
@@ -140,7 +140,7 @@ class App extends Component {
             </p>
             <p>Ambitious and dedicated software wizard with a background in operations and quality assurance. Capable of learning new processes and systems quickly, and able to contribute as a resourceful team member and successfully work independently. It gives me great joy to combine my love of efficiency and skills as a wizard to create intuitive web and app experiences.<br/>
             Please see [ mad skills ] section for spells or visit my GitHub<br/>
-            <a class="btn waves-effect waves-purple grey black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">waredave Github</a> </p>
+            <a class="btn waves-effect waves-purple grey black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">WareDave<i class="fa fa-github"></i></a> </p>
             
                 <a class="waves-effect waves-purple waves-light red btn modal-trigger" href="#modal1">Veiw Dave's Resume</a><br/>
 
@@ -226,8 +226,8 @@ class App extends Component {
             <img src="https://i.imgur.com/4TNapS6m.jpg" alt='post-hub'></img><br/>
                 <a class="btn waves-effect waves-purple pink grey-text darken-text-2" href="https://post-hub.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class = "material-icons">whatshot</i>Post-Hub<i class = "material-icons">whatshot</i></a><br/>
             visit me or see my work:<br/>
-            <a class="btn waves-effect waves-purple white blue-text darken-text-2" href="https://www.linkedin.com/in/dave-the-clark/" target="_blank" rel="noopener noreferrer">LinkedIn</a><br/>
-            <a class="btn waves-effect waves-purple red black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">Github</a>
+            <a class="btn waves-effect waves-purple white blue-text darken-text-2" href="https://www.linkedin.com/in/dave-the-clark/" target="_blank" rel="noopener noreferrer">Linked<i class="fa fa-linkedin"></i></a><br/>
+            <a class="btn waves-effect waves-purple red black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">Github <i class="fa fa-github"></i></a>
             <a class="btn waves-effect waves-purple black red-text darken-text-2" href="https://profiles.generalassemb.ly/profiles/david-clark" target="_blank" rel="noopener noreferrer">GA</a>
             </p>
             </div>
@@ -498,9 +498,33 @@ while ans:<br/>
             <div class = "collapsible-header red darken-4">
                <i class = "material-icons">insert_emoticon</i>Friends</div>
             <div class = "collapsible-body center-align"><p>
-                  hold your breath!<br/>
-                  {/* <Preloader />  */}
-            </p></div>
+                 
+                  <img src="https://i.imgur.com/SvZdsRum.jpg" alt="link"></img><br/>
+                  <a class="waves-effect waves-light red-text btn black modal-trigger" href="#modal4">About Out The Box</a>
+
+
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+     <h1>[ Out The Box ]</h1>
+      <h4>What we sell</h4>
+       <p>Are you a collector? Do you enjoy toy shows, comic-con's or cosplay?  If so than Out The Box is a marketplace designed just for you. We sell toys and memorabilia from all eras including but not limited to: TV, Movies, Music, books, Sports and Video Games.</p>
+      <h4>What we do</h4>
+       <p>Out The Box is a marketplace built by fans for fans. Weather your a collector with mountains of unwanted treasures or you are simply ready to part with an old collection and move on to the next big thing. Maybe you enjoy creating your own treasures and are looking for a better way to share them. Out The Box is here for you.  We will make your treasures available for the world to see.</p>
+      <h4>More than Just Toys</h4>
+       <p>In addition we sell clothing, jewelry & accessories, artwork, retro video games & board games, Skateboards, Shoes, and much more. Many items created by local artists right here in Colorado.</p>
+       <p>-outtheboxshop.com</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+                  <a class="btn waves-effect waves-purple white blue-text darken-text-2" href="https://www.outtheboxshop.com/" target="_blank" rel="noopener noreferrer">Visit Out The Box<i class="material-icons right">cloud</i></a><br/>
+                  10215 Washington Street, Thornton, Colorado 80229
+            </p>
+            <img src="https://i.imgur.com/iFATh2Cl.jpg?1" alt="link"></img><br/> 
+            <a class="purple-text darken-text-2" href="https://www.instagram.com/soylent_shenanigans/?hl=en" target="_blank" rel="noopener noreferrer">Follow Soylent Shenanigans<a href="https://www.instagram.com/soylent_shenanigans/?hl=en" class="fa fa-instagram"></a></a><br/>
+            </div>
+           
          </li>
       </ul>	 
       
@@ -514,7 +538,7 @@ while ans:<br/>
  <footer>
           <div class="footer-copyright">
             <div class="container">
-             Forged In Fire By The <a class="green-text" href="https://github.com/WareDave">WareDave</a> 
+             Forged In Fire By The <a class="green-text" href="https://github.com/WareDave">WareDave  <i class="fa fa-github"></i></a> 
             <a class="pink-text text-lighten-4 right" href="#!">© 2020 Copyright </a>
            
             </div>

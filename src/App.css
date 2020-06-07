@@ -55,6 +55,10 @@ li {
   color: goldenrod;
 }
 
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
 
 
 @keyframes App-logo-spin {
