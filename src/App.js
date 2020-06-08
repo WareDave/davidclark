@@ -139,7 +139,24 @@ class App extends Component {
             ! Hairy Wizard Not The Wizard Harry !
             </p>
             <p>Ambitious and dedicated software wizard with a background in operations and quality assurance. Capable of learning new processes and systems quickly, and able to contribute as a resourceful team member and successfully work independently. It gives me great joy to combine my love of efficiency and skills as a wizard to create intuitive web and app experiences.<br/>
-            Please see [ mad skills ] section for spells or visit my GitHub<br/>
+            Please see [ mad skills ] section for spells or visit my GitHub  <a href="https://github.com/WareDave" class="fa fa-github"></a><br/>
+            <h4>Ground Zero :</h4>
+              <img src="https://i.imgur.com/9Mgqi9pm.jpg" alt="dos"></img>
+              <p>The last stand-alone version of MS-DOS to be released. Windows 95 was released on August 24, 1995. In the Windows 95 command line, the operating system version number was listed as MS-DOS version 7.0.</p>
+              <p>I received mine in October of 1996. It was the first computer that was my own. Soon after I found myself learning my first CLI spells. A wizard I would become.</p> 
+
+            <h4>The Spark :</h4>
+              <img src="https://i.imgur.com/cTzolC4m.jpg" alt="myspace"></img>
+              <p>Myspace (originally stylized as MySpace and currently stylized as myspace) is an American social networking service. From 2005 to 2008, it was the largest social networking site in the world, reaching more than 100 million users per month.</p>
+              <p>Dave finds self with demi-lord like power… ENTERS ( HTML ) ( CSS )  </p>
+
+            <h4>The Kindling : </h4>
+            <img src="https://i.imgur.com/knDpK2Im.png" alt="python"></img><br/>
+               <a class="purple-text" href="https://post-hub.herokuapp.com/">docs.python.org</a>
+              <h1> Do I have to like “Monty Python’s Flying Circus”?</h1>
+              <p>No, but it helps. :)</p>
+
+
             <a class="btn waves-effect waves-purple grey black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">WareDave<i class="fa fa-github"></i></a> </p>
             
                 <a class="waves-effect waves-purple waves-light red btn modal-trigger" href="#modal1">Veiw Dave's Resume</a><br/>
@@ -496,11 +513,11 @@ while ans:<br/>
          
          <li>
             <div class = "collapsible-header red darken-4">
-               <i class = "material-icons">insert_emoticon</i>Friends</div>
+               <i class = "material-icons">nature_people</i>Friends and Collaboration</div>
             <div class = "collapsible-body center-align"><p>
-                 
-                  <img src="https://i.imgur.com/SvZdsRum.jpg" alt="link"></img><br/>
-                  <a class="waves-effect waves-light red-text btn black modal-trigger" href="#modal4">About Out The Box</a>
+                 <h1>[ Out The Box ]</h1>
+                  <img src="https://i.imgur.com/vUvR6KRm.jpg" alt="link"></img><br/>
+                  <a class="waves-effect waves-light red-text btn black modal-trigger" href="#modal4">About</a>
 
 
   <div id="modal4" class="modal">
@@ -515,14 +532,15 @@ while ans:<br/>
        <p>-outtheboxshop.com</p>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
   </div>
-                  <a class="btn waves-effect waves-purple white blue-text darken-text-2" href="https://www.outtheboxshop.com/" target="_blank" rel="noopener noreferrer">Visit Out The Box<i class="material-icons right">cloud</i></a><br/>
-                  10215 Washington Street, Thornton, Colorado 80229
+                  <br/><a class="btn waves-effect waves-purple white blue-text darken-text-2" href="https://www.outtheboxshop.com/" target="_blank" rel="noopener noreferrer">OutTheBoxShop.com<i class="material-icons right">cloud</i></a><br/>
+10215 Washington Street, Thornton, Colorado 80229 Phone: 720-287-2082<br/> <a href="https://www.instagram.com/outthebox303/" class="fa fa-instagram"></a><a href="https://www.youtube.com/channel/UCDDgyvtmOxFyeLCc9DTNLSA" class="fa fa-youtube"></a><a href="https://www.facebook.com/outthebox303/
+" class="fa fa-facebook"></a>
             </p>
-            <img src="https://i.imgur.com/iFATh2Cl.jpg?1" alt="link"></img><br/> 
-            <a class="purple-text darken-text-2" href="https://www.instagram.com/soylent_shenanigans/?hl=en" target="_blank" rel="noopener noreferrer">Follow Soylent Shenanigans<a href="https://www.instagram.com/soylent_shenanigans/?hl=en" class="fa fa-instagram"></a></a><br/>
+            <img src="https://i.imgur.com/qLLb4iVm.jpg" alt="link"></img><br/> 
+            <a class="purple-text darken-text-2" href="https://www.instagram.com/soylent_shenanigans/?hl=en" target="_blank" rel="noopener noreferrer">Follow Soylent Shenanigans<br/><a href="https://www.instagram.com/soylent_shenanigans/?hl=en" class="fa fa-instagram"></a></a><br/>
             </div>
            
          </li>
