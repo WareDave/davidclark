@@ -88,7 +88,7 @@ class App extends Component {
  
  <div class="carousel carousel-slider center">
     <div class="carousel-fixed-item center">
-      <a class="btn waves-effect waves-purple white black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">WareDave <i class="fa fa-github"></i></a>
+      <a class="btn-floating pulse black black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
     </div>
     <div class="carousel-item grey darken-4 white-text" href="/">
     <h1 className="header pink-text">[ David L. Clark ]</h1>
@@ -157,7 +157,7 @@ class App extends Component {
               <p>No, but it helps. :)</p>
 
 
-            <a class="btn waves-effect waves-purple grey black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">WareDave<i class="fa fa-github"></i></a> </p>
+            <a class="btn-floating pulse grey black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a> </p>
             
                 <a class="waves-effect waves-purple waves-light red btn modal-trigger" href="#modal1">Veiw Dave's Resume</a><br/>
 
@@ -166,7 +166,7 @@ class App extends Component {
              
 
                
-                <div id="modal1" class="modal">
+                <div id="modal1" class="modal grey darken-4">
                   <div class="modal-content">
                     <h1>WareDave Dev Wizard</h1>
                     <p>David Clark<br/>
@@ -201,8 +201,8 @@ class App extends Component {
 
                     </p>
                   </div>
-                  <div class="modal-footer">
-                    <a href="/" class="modal-close waves-effect waves-green btn-flat">Done</a>
+                  <div class="modal-footer red darken-4">
+                    <a href="/" class="modal-close pulse waves-effect waves-green btn-flat">Done</a>
                   </div>
                 </div>
             </div>
@@ -228,7 +228,7 @@ class App extends Component {
               SQL Fun<br/> 
               <img src="https://i.imgur.com/uAqW8wYl.jpg" alt="link"></img><img src="https://i.imgur.com/L0dPloXl.jpg" alt="link"></img><img src="https://i.imgur.com/RoYzJX7l.jpg" alt="link"></img><br/>
               For More Spells click Button<br/>
-              <a class="btn waves-effect waves-purple grey purple-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer"> wizard stuff</a>
+              <a class="btn waves-effect waves-purple pulse grey purple-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer"> wizard stuff</a>
             </div>
          </li>
          <li>
@@ -258,7 +258,7 @@ class App extends Component {
            
 
                   
-              <div id="modal3" class="modal">
+              <div id="modal3" class="modal grey darken-4">
                     <div class="modal-content">
                         <h1>What's It Good For</h1>
                             <p> JavaScript (/ˈdʒɑːvəˌskrɪpt/),[6] often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.[7] JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
@@ -274,8 +274,8 @@ class App extends Component {
                                 </p>
 
                           </div>
-                          <div class="modal-footer">
-                        <a href="/" class="modal-close waves-effect waves-green btn-flat">done</a>
+                          <div class="modal-footer red darken-4">
+                        <a href="/" class="modal-close waves-effect waves-green btn-floating pulse">done</a>
                     </div>
               </div>           
             </p>
@@ -355,13 +355,13 @@ class App extends Component {
                   <a class="waves-effect waves-purple pink waves-light btn modal-trigger" href="#modal2">About Python Click Me</a>
 
                   
-                  <div id="modal2" class="modal">
+                  <div id="modal2" class="modal grey darken-4">
                     <div class="modal-content">
                       <h1>Pi What?</h1>
                       <p>Python is a general purpose and high level programming language. You can use Python for developing desktop GUI applications, websites and web applications. Also, Python, as a high level programming language, allows you to focus on core functionality of the application by taking care of common programming tasks.<br/>-medium.com </p>
                     </div>
-                    <div class="modal-footer">
-                      <a href="spam" class="modal-close waves-effect waves-green btn-flat">done</a>
+                    <div class="modal-footer red darken-4">
+                      <a href="spam" class="modal-close waves-effect waves-green btn-floating pulse">done</a>
                     </div>
                   </div>
             
@@ -520,27 +520,34 @@ while ans:<br/>
                   <a class="waves-effect waves-light red-text btn black modal-trigger" href="#modal4">About</a>
 
 
-  <div id="modal4" class="modal">
+  <div id="modal4" class="modal grey darken-4">
     <div class="modal-content">
-     <h1>[ Out The Box ]</h1>
+     <h3>[ Out The Box ]</h3>
       <h4>What we sell</h4>
        <p>Are you a collector? Do you enjoy toy shows, comic-con's or cosplay?  If so than Out The Box is a marketplace designed just for you. We sell toys and memorabilia from all eras including but not limited to: TV, Movies, Music, books, Sports and Video Games.</p>
       <h4>What we do</h4>
        <p>Out The Box is a marketplace built by fans for fans. Weather your a collector with mountains of unwanted treasures or you are simply ready to part with an old collection and move on to the next big thing. Maybe you enjoy creating your own treasures and are looking for a better way to share them. Out The Box is here for you.  We will make your treasures available for the world to see.</p>
       <h4>More than Just Toys</h4>
        <p>In addition we sell clothing, jewelry & accessories, artwork, retro video games & board games, Skateboards, Shoes, and much more. Many items created by local artists right here in Colorado.</p>
-       <p>-outtheboxshop.com</p>
+       <a class="btn waves-effect waves-purple white blue-text darken-text-2" href="https://www.outtheboxshop.com/" target="_blank" rel="noopener noreferrer">OutTheBoxShop.com</a>
     </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+    <div class="modal-footer red darken-4">
+      <a href="/" class="modal-close waves-effect waves-green btn-floating pulse">Close</a>
     </div>
   </div>
-                  <br/><a class="btn waves-effect waves-purple white blue-text darken-text-2" href="https://www.outtheboxshop.com/" target="_blank" rel="noopener noreferrer">OutTheBoxShop.com<i class="material-icons right">cloud</i></a><br/>
-10215 Washington Street, Thornton, Colorado 80229 Phone: 720-287-2082<br/> <a href="https://www.instagram.com/outthebox303/" class="fa fa-instagram"></a><a href="https://www.youtube.com/channel/UCDDgyvtmOxFyeLCc9DTNLSA" class="fa fa-youtube"></a><a href="https://www.facebook.com/outthebox303/
-" class="fa fa-facebook"></a>
+                  <br/><a class="btn waves-effect waves-purple red black-text darken-text-2" href="https://www.outtheboxshop.com/" target="_blank" rel="noopener noreferrer">Shop<i class="material-icons right">add_shopping_cart</i></a><br/>
+                  10215 Washington Street, Thornton, Colorado 80229 | Phone: 720-287-2082<br/> <a href="https://www.instagram.com/outthebox303/" class="fa fa-instagram"></a><a href="https://www.youtube.com/channel/UCDDgyvtmOxFyeLCc9DTNLSA" class="fa fa-youtube"></a><a href="https://www.facebook.com/outthebox303/
+                  " class="fa fa-facebook"></a>
             </p>
-            <img src="https://i.imgur.com/qLLb4iVm.jpg" alt="link"></img><br/> 
-            <a class="purple-text darken-text-2" href="https://www.instagram.com/soylent_shenanigans/?hl=en" target="_blank" rel="noopener noreferrer">Follow Soylent Shenanigans<br/><a href="https://www.instagram.com/soylent_shenanigans/?hl=en" class="fa fa-instagram"></a></a><br/>
+            <p>Working On :<br/>
+               Full stack app with owner and entrepreneur Ernesto. Stack originally set up to be a MERN app. Refactoing for a Python flask back end for larger expansion.
+               Using React-pdf, React Hooks and form inputs to render and download data. 
+            </p>
+            <h1>[ Soylent Shenanigans ]</h1>
+        <img src="https://i.imgur.com/qLLb4iVm.jpg" alt="link"></img><br/> 
+       <a class="purple-text darken-text-2" href="https://www.instagram.com/soylent_shenanigans/?hl=en" target="_blank" rel="noopener noreferrer">Follow Soylent Shenanigans<br/><a href="https://www.instagram.com/soylent_shenanigans/?hl=en" class="fa fa-instagram"></a></a> <a href="https://www.facebook.com/SoylentShenanigans/" class="fa fa-facebook"></a><br/>
+       <p>Working On :<br/>
+        full website and product page for soylent shenanigans. Using React Hooks and paypal api. Also working on full directory of locations to find her art as well as events to meet the artist.</p>
             </div>
            
          </li>
@@ -557,7 +564,7 @@ while ans:<br/>
           <div class="footer-copyright">
             <div class="container">
              Forged In Fire By The <a class="green-text" href="https://github.com/WareDave">WareDave  <i class="fa fa-github"></i></a> 
-            <a class="pink-text text-lighten-4 right" href="#!">© 2020 Copyright </a>
+            <a class="pink-text text-lighten-4 right" href="/">© 2020 Copyright </a>
            
             </div>
           </div>
