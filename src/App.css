@@ -64,7 +64,10 @@ li {
     background: black;
     color: #bb0000;
 }
-
+.fa-galactic-republic {
+  color: black;
+  size: 5x;
+}
 .fa-linkedin {
   background: #007bb5;
   color: white;

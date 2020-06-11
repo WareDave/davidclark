@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
+
 // import Preloader from './components/Preloader'
 import M from "materialize-css"; 
 import './App.css'
@@ -58,7 +59,7 @@ class App extends Component {
     <div class="nav-wrapper red darken-4">
       <a href="https://www.linkedin.com/in/dave-the-clark/" class="brand-logo center black-text">[ DaveHome ]</a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
-      <li><a href="https://profiles.generalassemb.ly/profiles/david-clark" class="waves-effect waves-light btn-floating red"><i class="fa fa-gear"></i></a></li>
+      <li><a  href="https://profiles.generalassemb.ly/profiles/david-clark" class="fab fab fa-old-republic fa-2x black-text"></a></li>
         
       </ul>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -74,11 +75,7 @@ class App extends Component {
     <li><a class="black-text" href="https://github.com/WareDave">GitHub</a></li>
     <li><a class="red-text" href="https://profiles.generalassemb.ly/profiles/david-clark">GA Profile</a></li>
   </ul>
-        {/* <li ><a class="black-text" href="https://post-hub.herokuapp.com/">[ Post-Hub ]</a> </li>
-        <li ><a class="light-blue-text" href='https://captains-tools.herokuapp.com/'>[ LinkedIn ]</a></li>
-        <li><a class="red-text" href="https://profiles.generalassemb.ly/profiles/david-clark">[ ga ]</a></li> */}
-        
-        {/* <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li> */}
+       
       </ul>
     </div>
   </nav>
@@ -94,30 +91,28 @@ class App extends Component {
     <h1 className="header pink-text">[ David L. Clark ]</h1>
     <h2 className="header pink-text" >software wizard<br/>
         email me at <a class="green-text" href='davetheclark87@gmail.com'>davetheclark87@gmail.com</a></h2>
-      <p class="red-text"> ! Hairy Wizard Not The Wizard Harry ! </p>
+      <p class="red-text"> <i class="fas fa-exclamation-triangle"></i> Hairy Wizard Not The Wizard Harry <i class="fas fa-exclamation-triangle"></i> </p>
       
       <br/>
     </div>
    
     <div class="carousel-item  grey lighten-1 black-text" href="/">
-    <h1 className="header black-text">[ WareDave ]</h1>
+    <h1 className="header black-text">
+    <i class="fas fa-hand-spock"></i></h1>
+    <h4>[ Dave ]</h4>
       <p class="black-text">Ambitious and dedicated software wizard with a background in operations and quality assurance.<br/>
-      <i class = "material-icons">whatshot</i> Capable of learning new processes and systems quickly, and able to contribute as a resourceful team member and successfully work independently.<i class = "material-icons">whatshot</i><br/>
+       Capable of learning new processes and systems quickly, and able to contribute as a resourceful team member and successfully work independently.<br/>
        It gives me great joy to combine my love of efficiency and skills as a wizard to create intuitive web and app experiences.<br/>
        Please see [ mad skills ] section for spells or visit my GitHub</p>
     </div>
     <div class="carousel-item black white-text" href="/">
     <h1 className="header pink-text">[ Dave Clark ]</h1>
-      <h2>
-        [ Skill set ]
-      </h2>
-        <p>Mocha Chai | Python | JavaScript | <br/>
-        Express | Node.js | React | <br/>
-        JQuery | JSON | SQL | PostgreSQL | MySQL | SQLite <br/>
-        HTML | CSS | SASS | Bootstrap | Bulma | MongoDB <br/>
-        Git | Postman | PG admin III | VScode | Sublime |
-          CLI: Terminal | cmd | Bash |
-          OS: Mac | Linux | Windows</p><br/>
+         <i href="https://www.python.org/" class="fab fa-python"></i>  <i href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square"></i>  <i class="fab fa-html5"></i>  <i class="fab fa-css3-alt"></i>  <i class="fab fa-node-js"></i>  <i class="fab fa-react"></i> <i class="fab fa-angular"></i> <i class="fab fa-bootstrap"></i>  <i class="fab fa-aws"></i>  <a href="https://github.com/WareDave" class="fa fa-github white-text"></a>  <i href="https://company.wizards.com/content/games" class="fab fa-d-and-d white-text"></i><br/>
+         <p> JQuery | JSON | SQL | PostgreSQL | MySQL | SQLite | MongoDB<br/>
+          Style: SASS |  Bulma  <br/>
+          Testing: Postman | VScode | Sublime <br/>
+          CLI: Terminal | cmd | Bash 
+          OS: <i class="fab fa-apple"></i> | <i class="fab fa-linux"></i> | <i class="fab fa-windows"></i></p><br/>
               
     </div>
     <div class="carousel-item black white-text" href="#four!">
@@ -131,7 +126,7 @@ class App extends Component {
       <ul class = "collapsible" data-collapsible = "expandable">
          <li>
             <div class = "collapsible-header red darken-4">
-               <i class = "material-icons">face</i>About</div>
+            <i class="fas fa-user-secret black-text"></i>About</div>
             <div class = "collapsible-body center-align">
             <img src="https://i.imgur.com/PlnYW1Um.jpg" alt="header"></img>
             <h1>[ WareDave ]</h1>
@@ -209,23 +204,63 @@ class App extends Component {
          </li>
          <li>
             <div class = "collapsible-header red darken-4">
-               <i class = "material-icons">whatshot</i>Mad skills</div>
-            <div class = "collapsible-body center-align "><p>List Me What You Got<br/>
-            <img src="https://i.imgur.com/ZU91U03s.png" alt="talking head"></img><br/>
-              Python | SQL | PostgreSQL |  mySQL <br/>
-              JavaScript | ES6/ESNext | jQuery | SASS | Bootstrap <br/>
-              npm | Linux | Mac | Windows | CSS | HTML | GUI/CLI/BUI <br/>
-              Bulma | MongoDB | Express | Node.js | React | Git | Mocha Chai
+            <i class="fab fa-dev black-text"></i>Collaboration</div>
+            <div class = "collapsible-body center-align"><p>
+                 <h1>[ Out The Box ]</h1>
+                  <img src="https://i.imgur.com/vUvR6KRm.jpg" alt="link"></img><br/>
+                  <a class="waves-effect waves-light red-text btn black modal-trigger" href="#modal4">About</a>
+
+
+  <div id="modal4" class="modal grey darken-4">
+    <div class="modal-content">
+     <h3>[ Out The Box ]</h3>
+      <h4>What we sell</h4>
+       <p>Are you a collector? Do you enjoy toy shows, comic-con's or cosplay?  If so than Out The Box is a marketplace designed just for you. We sell toys and memorabilia from all eras including but not limited to: TV, Movies, Music, books, Sports and Video Games.</p>
+      <h4>What we do</h4>
+       <p>Out The Box is a marketplace built by fans for fans. Weather your a collector with mountains of unwanted treasures or you are simply ready to part with an old collection and move on to the next big thing. Maybe you enjoy creating your own treasures and are looking for a better way to share them. Out The Box is here for you.  We will make your treasures available for the world to see.</p>
+      <h4>More than Just Toys</h4>
+       <p>In addition we sell clothing, jewelry & accessories, artwork, retro video games & board games, Skateboards, Shoes, and much more. Many items created by local artists right here in Colorado.</p>
+       <a class="btn waves-effect waves-purple white blue-text darken-text-2" href="https://www.outtheboxshop.com/" target="_blank" rel="noopener noreferrer">OutTheBoxShop.com</a>
+    </div>
+    <div class="modal-footer red darken-4">
+      <a href="/" class="modal-close waves-effect waves-green btn-floating pulse">Close</a>
+    </div>
+  </div>
+                  <br/><a class="btn waves-effect waves-purple red black-text darken-text-2" href="https://www.outtheboxshop.com/" target="_blank" rel="noopener noreferrer">Shop<i class="material-icons right">add_shopping_cart</i></a><br/>
+                  10215 Washington Street, Thornton, Colorado 80229 | Phone: 720-287-2082<br/> <a href="https://www.instagram.com/outthebox303/" class="fa fa-instagram"></a><a href="https://www.youtube.com/channel/UCDDgyvtmOxFyeLCc9DTNLSA" class="fa fa-youtube"></a><a href="https://www.facebook.com/outthebox303/
+                  " class="fa fa-facebook"></a>
             </p>
-            <p>
-              MongoDB<br/>
+            <p>Working On :<br/>
+               Full stack app with owner and entrepreneur Ernesto. Stack originally set up to be a MERN app. Refactoing for a Python flask back end for larger expansion.
+               Using React-pdf, React Hooks, react-signature-canvas, and form inputs to render and download data. 
+            </p>
+            <h1>[ Soylent Shenanigans ]</h1>
+        <img src="https://i.imgur.com/qLLb4iVm.jpg" alt="link"></img><br/> 
+       <a class="purple-text darken-text-2" href="https://www.instagram.com/soylent_shenanigans/?hl=en" target="_blank" rel="noopener noreferrer">Follow Soylent Shenanigans<br/><a href="https://www.instagram.com/soylent_shenanigans/?hl=en" class="fa fa-instagram"></a></a> <a href="https://www.facebook.com/SoylentShenanigans/" class="fa fa-facebook"></a><br/>
+       <p>Working On :<br/>
+        full website and product page for soylent shenanigans. Using React Hooks and paypal api. Also working on full directory of locations to find her art as well as events to meet the artist.</p>
+            </div>
+           
+         </li>
+         <li>
+            <div class = "collapsible-header red darken-4">
+            <i class="fas fa-dragon black-text"></i>Mad Skills</div>
+            <div class = "collapsible-body center-align "><p>List Me What You Got </p><br/>
+            <img src="https://i.imgur.com/ZU91U03s.png" alt="talking head"></img><br/>
+            <i class="fab fa-python"></i>  <i href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square"></i>  <i class="fab fa-html5"></i>  <i class="fab fa-css3-alt"></i>  <i class="fab fa-node-js"></i>  <i class="fab fa-react"></i>  <i class="fab fa-angular"></i>  <i class="fab fa-bootstrap"></i>  <i class="fab fa-aws"></i>  <a href="https://github.com/WareDave" class="fa fa-github black-text"></a>  <i href="https://company.wizards.com/content/games" class="fab fa-d-and-d"></i><br/>
+         <p> JQuery | JSON | SQL | PostgreSQL | MySQL | SQLite | MongoDB<br/>
+          Style: SASS |  Bulma  <br/>
+          Testing: Postman | VScode | Sublime <br/>
+          CLI: Terminal | cmd | Bash 
+          OS: <i class="fab fa-apple"></i> | <i class="fab fa-linux"></i> | <i class="fab fa-windows"></i></p><br/> 
+          <p> MongoDB<br/>
               <img src="https://i.imgur.com/xApirqjl.jpg" alt="propic1"></img><img src="https://i.imgur.com/ZQu9E6Ol.jpg" alt="sample"></img><img src="https://i.imgur.com/MX8iQirl.jpg" alt='stuff'></img><br/>
               Python Flask<br/>
               <img src="https://i.imgur.com/vtQMEgXl.jpg" alt="davesballs"></img><img src="https://i.imgur.com/2TFR9Fyl.jpg" alt="junk"></img><img src="https://i.imgur.com/rnbmYYKl.jpg" alt="newpic"></img><br/>
               React Nodejs<br/>
               <img src="https://i.imgur.com/676xFrkl.jpg" alt="link"></img><img src="https://i.imgur.com/uztzz0Hl.jpg" alt="link"></img><img src="https://i.imgur.com/QyisWAcl.jpg" alt="link"></img><br/>
                </p>
-              SQL Fun<br/> 
+              SQL<br/> 
               <img src="https://i.imgur.com/uAqW8wYl.jpg" alt="link"></img><img src="https://i.imgur.com/L0dPloXl.jpg" alt="link"></img><img src="https://i.imgur.com/RoYzJX7l.jpg" alt="link"></img><br/>
               For More Spells click Button<br/>
               <a class="btn waves-effect waves-purple pulse grey purple-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer"> wizard stuff</a>
@@ -233,7 +268,7 @@ class App extends Component {
          </li>
          <li>
             <div class = "collapsible-header red darken-4">
-               <i class = "material-icons">filter_hdr</i>Projects & Apps</div>
+            <i class="fas fa-hat-wizard black-text"></i>Projects & Apps</div>
             <div class = "collapsible-body center-align "><p><h1 className="header pink-text">[ WareDave Projects ]</h1><br/>
            
             Express App:<br/>
@@ -251,9 +286,10 @@ class App extends Component {
          </li>
          <li>
             <div class = "collapsible-header red darken-4">
-               <i class = "material-icons">extension</i>JavaScript</div>
+            <i href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square black-text"></i>JavaScript</div>
             <div class = "collapsible-body"><p>
-<h1 className="header pink-text">[ JavaScript ]</h1>    
+<h1 className="header pink-text">[ JavaScript ]</h1> <br/>
+<i href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square"></i>   
             <a class="waves-effect waves-purple pink waves-light btn modal-trigger" href="#modal3">About JavaScript</a>
            
 
@@ -348,12 +384,13 @@ class App extends Component {
          </li>
          <li>
             <div class = "collapsible-header red darken-4">
-               <i class = "material-icons">extension</i>Python</div>
+            <i class="fab fa-python black-text"></i>Python</div>
             <div class = "collapsible-body"><p>
-                  <h1 className="header pink-text">[ Python ]</h1>
-              
+                  <h1 className="header pink-text center-align">[ Python ]</h1><br/>
+                  
+              <p className="center-align">
                   <a class="waves-effect waves-purple pink waves-light btn modal-trigger" href="#modal2">About Python Click Me</a>
-
+              </p>
                   
                   <div id="modal2" class="modal grey darken-4">
                     <div class="modal-content">
@@ -364,9 +401,11 @@ class App extends Component {
                       <a href="spam" class="modal-close waves-effect waves-green btn-floating pulse">done</a>
                     </div>
                   </div>
-            
-             <br/> for documents click <br/>
-             <a class="btn waves-effect waves-purple pink blue-text darken-text-2" href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer">Python 3</a><br/>
+            <div className="center-align" >
+             <br/><p> for documents click</p> 
+             <a href="https://docs.python.org/3/" class="fab fa-python yellow-text center-align">Doc</a>
+             <p className="center-align">Basic of Python Code</p>
+             </div>
              <pre><code>
              the basics: <br/>
              Data types:<br/>
@@ -390,7 +429,7 @@ class App extends Component {
               still = 4.2<br/>
               sux = 4two<br/><br/>
               </code></pre>
-              basic Syntax and loops:<br/>
+              <p className="center-align">basic Syntax and loops:</p><br/>
              <pre><code class="Python">player_name =  input("Ready to boogie what's your name? > ")<br/>
 print("ready for this {}".format(player_name) + 'let us Boogie')<br/>
 
@@ -414,7 +453,7 @@ restart = input("Do you want to restart the game {}? Yes or No ".format(player_n
 if restart == 'yes':<br/>
     main()<br/>
     </code></pre> 
-        For Fun an Games:<br/>
+       <p className="center-align"> For Fun an Games:</p><br/>
         <pre class="line-numbers"><code class="language-python"> 
         import sys<br/>
 import random<br/><br/>
@@ -505,52 +544,13 @@ while ans:<br/>
 		print ("not metal.")<br/><br/>
           </code></pre>   
             </p>
-            or get hardcore and used it with frameworks like flask and add postgresql or sqlite as a back end for web apps or apis for data<br/>
+            or get hardcore and used it with frameworks like flask and add postgresql or sqlite as a back end for web apps or apis<br/>
             <img src="https://i.imgur.com/rt2jdMdl.jpg" alt="link"></img><img src="https://i.imgur.com/rt2jdMdl.jpg" alt="link"></img><br/> 
             <img src="https://i.imgur.com/NGXlF6Nl.jpg" alt="link"></img><img src="https://i.imgur.com/NGXlF6Nl.jpg" alt="link"></img><br/> 
             </div>
          </li>
          
-         <li>
-            <div class = "collapsible-header red darken-4">
-               <i class = "material-icons">nature_people</i>Friends and Collaboration</div>
-            <div class = "collapsible-body center-align"><p>
-                 <h1>[ Out The Box ]</h1>
-                  <img src="https://i.imgur.com/vUvR6KRm.jpg" alt="link"></img><br/>
-                  <a class="waves-effect waves-light red-text btn black modal-trigger" href="#modal4">About</a>
-
-
-  <div id="modal4" class="modal grey darken-4">
-    <div class="modal-content">
-     <h3>[ Out The Box ]</h3>
-      <h4>What we sell</h4>
-       <p>Are you a collector? Do you enjoy toy shows, comic-con's or cosplay?  If so than Out The Box is a marketplace designed just for you. We sell toys and memorabilia from all eras including but not limited to: TV, Movies, Music, books, Sports and Video Games.</p>
-      <h4>What we do</h4>
-       <p>Out The Box is a marketplace built by fans for fans. Weather your a collector with mountains of unwanted treasures or you are simply ready to part with an old collection and move on to the next big thing. Maybe you enjoy creating your own treasures and are looking for a better way to share them. Out The Box is here for you.  We will make your treasures available for the world to see.</p>
-      <h4>More than Just Toys</h4>
-       <p>In addition we sell clothing, jewelry & accessories, artwork, retro video games & board games, Skateboards, Shoes, and much more. Many items created by local artists right here in Colorado.</p>
-       <a class="btn waves-effect waves-purple white blue-text darken-text-2" href="https://www.outtheboxshop.com/" target="_blank" rel="noopener noreferrer">OutTheBoxShop.com</a>
-    </div>
-    <div class="modal-footer red darken-4">
-      <a href="/" class="modal-close waves-effect waves-green btn-floating pulse">Close</a>
-    </div>
-  </div>
-                  <br/><a class="btn waves-effect waves-purple red black-text darken-text-2" href="https://www.outtheboxshop.com/" target="_blank" rel="noopener noreferrer">Shop<i class="material-icons right">add_shopping_cart</i></a><br/>
-                  10215 Washington Street, Thornton, Colorado 80229 | Phone: 720-287-2082<br/> <a href="https://www.instagram.com/outthebox303/" class="fa fa-instagram"></a><a href="https://www.youtube.com/channel/UCDDgyvtmOxFyeLCc9DTNLSA" class="fa fa-youtube"></a><a href="https://www.facebook.com/outthebox303/
-                  " class="fa fa-facebook"></a>
-            </p>
-            <p>Working On :<br/>
-               Full stack app with owner and entrepreneur Ernesto. Stack originally set up to be a MERN app. Refactoing for a Python flask back end for larger expansion.
-               Using React-pdf, React Hooks and form inputs to render and download data. 
-            </p>
-            <h1>[ Soylent Shenanigans ]</h1>
-        <img src="https://i.imgur.com/qLLb4iVm.jpg" alt="link"></img><br/> 
-       <a class="purple-text darken-text-2" href="https://www.instagram.com/soylent_shenanigans/?hl=en" target="_blank" rel="noopener noreferrer">Follow Soylent Shenanigans<br/><a href="https://www.instagram.com/soylent_shenanigans/?hl=en" class="fa fa-instagram"></a></a> <a href="https://www.facebook.com/SoylentShenanigans/" class="fa fa-facebook"></a><br/>
-       <p>Working On :<br/>
-        full website and product page for soylent shenanigans. Using React Hooks and paypal api. Also working on full directory of locations to find her art as well as events to meet the artist.</p>
-            </div>
-           
-         </li>
+       
       </ul>	 
       
       {/* <Route
@@ -564,7 +564,8 @@ while ans:<br/>
           <div class="footer-copyright">
             <div class="container">
              Forged In Fire By The <a class="green-text" href="https://github.com/WareDave">WareDave  <i class="fa fa-github"></i></a> 
-            <a class="pink-text text-lighten-4 right" href="/">© 2020 Copyright </a>
+            <a class="pink-text text-lighten-4 right" href="/">© 2020 Copyright</a>
+
            
             </div>
           </div>

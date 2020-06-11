@@ -42,8 +42,8 @@ class SearchContainer extends Component {
             <nav>
      <div class="nav-wrapper red darken-4">
      <div class="col s12">
-        <a href="/" class="black-text center">[ DaveHome ] </a>
-      <a href="https://giphy.com/" class="brand-logo black-text center"><i class="large material-icons">chevron_right</i>[ Giphy ]</a>
+     <a  href="https://profiles.generalassemb.ly/profiles/david-clark" class="fab fab fa-old-republic fa-2x black-text"></a>
+      <a href="https://giphy.com/" class="brand-logo black-text center">[ Giphy ]</a>
       
       <ul id="nav-mobile" class="right hide-on-med-and-down">
        <li><Link class="black-text" to="/">Home</Link></li> 
