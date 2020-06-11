@@ -63,8 +63,8 @@ class App extends Component {
         
       </ul>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-         <li><Link class="white-text" to="/SearchContainer"><i class = "material-icons">search</i></Link></li>
-         <a class='dropdown-trigger material-icons' href='/' data-target='dropdown1'>view_list</a>
+         <li><Link class="fas fa-search fa-1x black-text" to="/SearchContainer"></Link></li>
+         <a class='dropdown-trigger fas fa-dice-d20 fa-2x black-text' href='/' data-target='dropdown1'></a>
 
 
   <ul id='dropdown1' class='dropdown-content'>
