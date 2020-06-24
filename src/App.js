@@ -74,6 +74,7 @@ class App extends Component {
     <li><a class="blue-text" href="https://www.linkedin.com/in/dave-the-clark/">LinkedIn</a></li>
     <li><a class="black-text" href="https://github.com/WareDave">GitHub</a></li>
     <li><a class="red-text" href="https://profiles.generalassemb.ly/profiles/david-clark">GA Profile</a></li>
+    <li><a class='red-text' href='https://www.soylentshenanigans.com/'></a>soylentshenanigans</li>
   </ul>
        
       </ul>
