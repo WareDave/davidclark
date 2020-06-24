@@ -39,13 +39,16 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgb(190, 73, 73), 0 6px 20px 0 black;
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(91,3,3,1) 35%, rgba(0,0,0,1) 100%);
   color: goldenrod;
   
 }
-
+img{
+  text-shadow: 0 4px 8px 0 rgb(190, 73, 73), 0 6px 20px 0 black;   
+}
 h3 {
-  font-family: "Special Elite";
+  text-shadow: 0 4px 8px 0 rgb(190, 73, 73), 0 6px 20px 0 black; 
 }
 
 main {
@@ -56,6 +59,7 @@ main {
 li {
  font-size: 30px;
   color: goldenrod;
+  text-shadow: 0 4px 8px 0 rgb(190, 73, 73), 0 6px 20px 0 black; 
 }
 
 
@@ -106,7 +110,14 @@ li {
   margin: 5px 2px;
 }
 
-
+.balls{
+  border: 1px ridge black;
+  box-shadow: 0 4px 8px 0 rgb(190, 73, 73), 0 6px 20px 0 black;
+  margin-right: 20px;
+  border-radius: 25%;
+  height: 250px;
+  width: 250px;
+}
 
 @keyframes App-logo-spin {
   from {

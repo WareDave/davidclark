@@ -207,7 +207,7 @@ class App extends Component {
             <i class="fab fa-dev black-text"></i>Collaboration</div>
             <div class = "collapsible-body center-align"><p>
                  <h1>[ Out The Box ]</h1>
-                  <img src="https://i.imgur.com/vUvR6KRm.jpg" alt="link"></img><br/>
+                  <img class='balls' src="https://i.imgur.com/engcPUw.jpg" alt="link"></img><br/>
                   <a class="waves-effect waves-light red-text btn black modal-trigger" href="#modal4">About</a>
 
 
@@ -235,10 +235,10 @@ class App extends Component {
                Using React-pdf, React Hooks, react-signature-canvas, and form inputs to render and download data. 
             </p>
             <h1>[ Soylent Shenanigans ]</h1>
-        <img src="https://i.imgur.com/qLLb4iVm.jpg" alt="link"></img><br/> 
+        <img class='balls' src="https://i.imgur.com/s7gantL.jpg" alt="link"></img><br/> 
        <a class="purple-text darken-text-2" href="https://www.instagram.com/soylent_shenanigans/?hl=en" target="_blank" rel="noopener noreferrer">Follow Soylent Shenanigans<br/><a href="https://www.instagram.com/soylent_shenanigans/?hl=en" class="fa fa-instagram"></a></a> <a href="https://www.facebook.com/SoylentShenanigans/" class="fa fa-facebook"></a><br/>
-       <p>Working On :<br/>
-        full website and product page for soylent shenanigans. Using React Hooks and paypal api. Also working on full directory of locations to find her art as well as events to meet the artist.</p>
+       <p>Worked On :<br/>
+        <a href='https://www.soylentshenanigans.com/'>www.soylentshenanigans.com</a></p>
             </div>
            
          </li>
@@ -281,7 +281,13 @@ class App extends Component {
             <a class="btn waves-effect waves-purple white blue-text darken-text-2" href="https://www.linkedin.com/in/dave-the-clark/" target="_blank" rel="noopener noreferrer">Linked<i class="fa fa-linkedin"></i></a><br/>
             <a class="btn waves-effect waves-purple red black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">Github <i class="fa fa-github"></i></a>
             <a class="btn waves-effect waves-purple black red-text darken-text-2" href="https://profiles.generalassemb.ly/profiles/david-clark" target="_blank" rel="noopener noreferrer">GA</a>
+
             </p>
+            <h1>[ Soylent Shenanigans ]</h1>
+        <img class='balls' src="https://i.imgur.com/s7gantL.jpg" alt="link"></img><br/> 
+       <a class="purple-text darken-text-2" href="https://www.instagram.com/soylent_shenanigans/?hl=en" target="_blank" rel="noopener noreferrer">Follow Soylent Shenanigans<br/><a href="https://www.instagram.com/soylent_shenanigans/?hl=en" class="fa fa-instagram"></a></a> <a href="https://www.facebook.com/SoylentShenanigans/" class="fa fa-facebook"></a><br/>
+       <p>Worked On :<br/>
+        <a href='https://www.soylentshenanigans.com/'>www.soylentshenanigans.com</a></p>
             </div>
          </li>
          <li>
