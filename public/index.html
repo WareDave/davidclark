@@ -76,6 +76,23 @@
      <script src="path/to/materialize.js"></script> 
     <script src="path/to/your/bundle.js"></script> 
     <div id="root"></div>
+    <div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+    xfbml            : true,
+    version          : 'v7.0'
+  });
+};
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -86,5 +103,12 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <div class="fb-customerchat"
+  attribution=install_email
+  page_id="116151020169968"
+  theme_color="#804201"
+    logged_in_greeting="Need a Website/Page, banner add or plugin built DM or Call 3036416954?"
+    logged_out_greeting="How May The Wizard Dave Serve You?">
+</div>
   </body>
 </html>

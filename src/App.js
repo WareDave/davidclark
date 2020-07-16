@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-
+import Header from "./header"
 // import Preloader from './components/Preloader'
 import M from "materialize-css"; 
 import './App.css'
@@ -52,78 +52,14 @@ class App extends Component {
       
       <main>
          
-        <div class="navbar-fixed red darken-4">
-       
-         <nav>
+         <Header/>
+<h1 class='center-align'>
+         <a class="btn-floating btn-large waves-effect doom left-align"><Link to='/spam&eggs'> <i href="/spam&eggs" class="fab fa-python"></i></Link>  </a>
+         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/myapps'>My Apps</Link>  </a> 
          
-    <div class="nav-wrapper red darken-4">
-      <a href="https://www.linkedin.com/in/dave-the-clark/" class="brand-logo center black-text">[ DaveHome ]</a>
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-      <li><a  href="https://profiles.generalassemb.ly/profiles/david-clark" class="fab fab fa-old-republic fa-2x black-text"></a></li>
-        
-      </ul>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-         <li><Link class="fas fa-search fa-1x black-text" to="/SearchContainer"></Link></li>
-         <a class='dropdown-trigger fas fa-dice-d20 fa-2x black-text' href='/' data-target='dropdown1'></a>
-
-
-  <ul id='dropdown1' class='dropdown-content'>
-    <li><a class="pink-text" href="https://post-hub.herokuapp.com/">Post-Hub</a></li>
-    <li><a class="pink-text" href="https://captains-tools.herokuapp.com/">StarFleet</a></li>
-    <li class="divider" tabindex="-1"></li>
-    <li><a class="blue-text" href="https://www.linkedin.com/in/dave-the-clark/">LinkedIn</a></li>
-    <li><a class="black-text" href="https://github.com/WareDave">GitHub</a></li>
-    <li><a class="red-text" href="https://profiles.generalassemb.ly/profiles/david-clark">GA Profile</a></li>
-    <li><a class='red-text' href='https://www.soylentshenanigans.com/'></a>soylent<br/>shenanigans</li>
-  </ul>
-       
-      </ul>
-    </div>
-  </nav>
-  </div>
-          
-            
- 
- <div class="carousel carousel-slider center">
-    <div class="carousel-fixed-item center">
-      <a class="btn-floating pulse black black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
-    </div>
-    <div class="carousel-item grey darken-4 white-text" href="/">
-    <h1 className="header pink-text">[ David L. Clark ]</h1>
-    <h2 className="header pink-text" >software wizard<br/>
-        email me at <a class="green-text" href='davetheclark87@gmail.com'>davetheclark87@gmail.com</a></h2>
-      <p class="red-text"> <i class="fas fa-exclamation-triangle"></i> Hairy Wizard Not The Wizard Harry <i class="fas fa-exclamation-triangle"></i> </p>
-      
-      <br/>
-    </div>
-   
-    <div class="carousel-item  grey lighten-1 black-text" href="/">
-    <h1 className="header black-text">
-    <i class="fas fa-hand-spock"></i></h1>
-    <h4>[ Dave ]</h4>
-      <p class="black-text">Ambitious and dedicated software wizard with a background in operations and quality assurance.<br/>
-       Capable of learning new processes and systems quickly, and able to contribute as a resourceful team member and successfully work independently.<br/>
-       It gives me great joy to combine my love of efficiency and skills as a wizard to create intuitive web and app experiences.<br/>
-       Please see [ mad skills ] section for spells or visit my GitHub</p>
-    </div>
-    <div class="carousel-item black white-text" href="/">
-    <h1 className="header pink-text">[ Dave Clark ]</h1>
-         <i href="https://www.python.org/" class="fab fa-python"></i>  <i href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square"></i>  <i class="fab fa-html5"></i>  <i class="fab fa-css3-alt"></i>  <i class="fab fa-node-js"></i>  <i class="fab fa-react"></i> <i class="fab fa-angular"></i> <i class="fab fa-bootstrap"></i>  <i class="fab fa-aws"></i>  <a href="https://github.com/WareDave" class="fa fa-github white-text"></a>  <i href="https://company.wizards.com/content/games" class="fab fa-d-and-d white-text"></i><br/>
-         <p> JQuery | JSON | SQL | PostgreSQL | MySQL | SQLite | MongoDB<br/>
-          Style: SASS |  Bulma  <br/>
-          Testing: Postman | VScode | Sublime <br/>
-          CLI: Terminal | cmd | Bash 
-          OS: <i class="fab fa-apple"></i> | <i class="fab fa-linux"></i> | <i class="fab fa-windows"></i></p><br/>
-              
-    </div>
-    <div class="carousel-item black white-text" href="#four!">
-      <h2>come see me on <a href="https://www.linkedin.com/in/dave-the-clark/" class="fa fa-linkedin"></a></h2>
-      <h1 class="pink-text">Or On GA <a href="https://profiles.generalassemb.ly/profiles/david-clark">Profiles</a></h1>
-      need a Dev Wizard email me direct at<br/>
-      davetheclark87@gmail.com
-    </div>
-  </div>
-              
+         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/contact'>Contact Me</Link>  </a>   
+        <a class="btn-floating btn-large waves-effect doom right-align"><Link to='/js'><i href="" class="fab fa-js-square"></i>  </Link>  </a>
+        </h1>
       <ul class = "collapsible" data-collapsible = "expandable">
          <li>
             <div class = "collapsible-header red darken-4">
@@ -167,6 +103,7 @@ class App extends Component {
                     <h1>WareDave Dev Wizard</h1>
                     <p>David Clark<br/>
                     Full Stack Web Developer |  Westminster, CO(303) 641-6954<br/>
+    <a href="mailto:davetheclark87@gmail.com"><img class='spike' src='https://i.imgur.com/yqMMdJe.png'></img> </a>  
                     | davetheclark87@gmail.com | https://www.linkedin.com/in/dave-the-clark/ | <br/>
                         <br/>
                         SKILLS:<br/>
@@ -231,15 +168,18 @@ class App extends Component {
                   10215 Washington Street, Thornton, Colorado 80229 | Phone: 720-287-2082<br/> <a href="https://www.instagram.com/outthebox303/" class="fa fa-instagram"></a><a href="https://www.youtube.com/channel/UCDDgyvtmOxFyeLCc9DTNLSA" class="fa fa-youtube"></a><a href="https://www.facebook.com/outthebox303/
                   " class="fa fa-facebook"></a>
             </p>
+            <p>Developed and maintain outheboxshop.com</p>
             <p>Working On :<br/>
-               Full stack app with owner and entrepreneur Ernesto. Stack originally set up to be a MERN app. Refactoing for a Python flask back end for larger expansion.
-               Using React-pdf, React Hooks, react-signature-canvas, and form inputs to render and download data. 
+            I am currently working on a vendor intake app with new owner Ernesto, and the team at Consign Connect on a Full stack MERN app to using React-PDF, and Bootstrap for style.
+ 
             </p>
             <h1>[ Soylent Shenanigans ]</h1>
         <img class='balls' src="https://i.imgur.com/s7gantL.jpg" alt="link"></img><br/> 
-       <a class="purple-text darken-text-2" href="https://www.instagram.com/soylent_shenanigans/?hl=en" target="_blank" rel="noopener noreferrer">Follow Soylent Shenanigans<br/><a href="https://www.instagram.com/soylent_shenanigans/?hl=en" class="fa fa-instagram"></a></a> <a href="https://www.facebook.com/SoylentShenanigans/" class="fa fa-facebook"></a><br/>
+        <h4 class="center">Follow On<br/>
+    <p class='center-align'><a href="https://www.instagram.com/soylent_shenanigans/?hl=en"><img class='jordi center-align' src="https://i.imgur.com/afko6pK.png"   target='blank'></img> </a>  <a href="https://www.facebook.com/SoylentShenanigans/" target='blank'><img class='jordi center-align' src="https://i.imgur.com/J9ikY9T.png" ></img></a> </p>     
+    </h4>
        <p>Worked On :<br/>
-        <a href='https://www.soylentshenanigans.com/'>www.soylentshenanigans.com</a></p>
+       Developed and maintain<a href='https://www.soylentshenanigans.com/'>www.soylentshenanigans.com</a></p>
             </div>
            
          </li>
@@ -267,306 +207,12 @@ class App extends Component {
               <a class="btn waves-effect waves-purple pulse grey purple-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer"> wizard stuff</a>
             </div>
          </li>
-         <li>
-            <div class = "collapsible-header red darken-4">
-            <i class="fas fa-hat-wizard black-text"></i>Projects & Apps</div>
-            <div class = "collapsible-body center-align "><p><h1 className="header pink-text">[ WareDave Projects ]</h1><br/>
-           
-            Express App:<br/>
-            <img src="https://i.imgur.com/ioK9cB8m.jpg" alt='starfleet'></img><br/>
-            <a class="btn waves-effect waves-purple pink light-blue-text darken-text-2" href="https://captains-tools.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class = "material-icons">whatshot</i>Captains Log<i class = "material-icons">whatshot</i></a><br/>
-            React Flask:<br/>
-            <img src="https://i.imgur.com/4TNapS6m.jpg" alt='post-hub'></img><br/>
-                <a class="btn waves-effect waves-purple pink grey-text darken-text-2" href="https://post-hub.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class = "material-icons">whatshot</i>Post-Hub<i class = "material-icons">whatshot</i></a><br/>
-            visit me or see my work:<br/>
-            <a class="btn waves-effect waves-purple white blue-text darken-text-2" href="https://www.linkedin.com/in/dave-the-clark/" target="_blank" rel="noopener noreferrer">Linked<i class="fa fa-linkedin"></i></a><br/>
-            <a class="btn waves-effect waves-purple red black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">Github <i class="fa fa-github"></i></a>
-            <a class="btn waves-effect waves-purple black red-text darken-text-2" href="https://profiles.generalassemb.ly/profiles/david-clark" target="_blank" rel="noopener noreferrer">GA</a>
-
-            </p>
-            <h1>[ Soylent Shenanigans ]</h1>
-        <img class='balls' src="https://i.imgur.com/s7gantL.jpg" alt="link"></img><br/> 
-       <a class="purple-text darken-text-2" href="https://www.instagram.com/soylent_shenanigans/?hl=en" target="_blank" rel="noopener noreferrer">Follow Soylent Shenanigans<br/><a href="https://www.instagram.com/soylent_shenanigans/?hl=en" class="fa fa-instagram"></a></a> <a href="https://www.facebook.com/SoylentShenanigans/" class="fa fa-facebook"></a><br/>
-       <p>Worked On :<br/>
-        <a href='https://www.soylentshenanigans.com/'>www.soylentshenanigans.com</a></p>
-            </div>
-         </li>
-         <li>
-            <div class = "collapsible-header red darken-4">
-            <i href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square black-text"></i>JavaScript</div>
-            <div class = "collapsible-body"><p>
-<h1 className="header pink-text">[ JavaScript ]</h1> <br/>
-<i href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square"></i>   
-            <a class="waves-effect waves-purple pink waves-light btn modal-trigger" href="#modal3">About JavaScript</a>
-           
-
-                  
-              <div id="modal3" class="modal grey darken-4">
-                    <div class="modal-content">
-                        <h1>What's It Good For</h1>
-                            <p> JavaScript (/ˈdʒɑːvəˌskrɪpt/),[6] often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.[7] JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
-
-                                Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.[8] JavaScript enables interactive web pages and is an essential part of web applications. The vast majority of websites use it for client-side page behavior,[9] and all major web browsers have a dedicated JavaScript engine to execute it.
-
-                                As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM). However, the language itself does not include any input/output (I/O), such as networking, storage, or graphics facilities, as the host environment (usually a web browser) provides those APIs.
-
-                                JavaScript engines were originally used only in web browsers, but they are now embedded in some servers, usually via Node.js. They are also embedded in a variety of applications created with frameworks such as Electron and Cordova.
-
-                                Although there are similarities between JavaScript and Java, including language name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.<br/>
-                                <a class="btn waves-effect green black-text darken-text-2" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener noreferrer">Javascript Wikipedia</a><br/>
-                                </p>
-
-                          </div>
-                          <div class="modal-footer red darken-4">
-                        <a href="/" class="modal-close waves-effect waves-green btn-floating pulse">done</a>
-                    </div>
-              </div>           
-            </p>
-
-              <p><pre><code class="language-javascript">
-                          Data Types:
-                                      undefined : "undefined"<br/>
-                                      Boolean : "boolean"<br/>
-                                      Number : "number"<br/>
-                                      String : "string"<br/>
-                                      BigInt : "bigint"<br/>
-                                      Symbol : "symbol"<br/><br/>
-                                      Basic syntax:<br/>
-                                     
-                                      </code></pre> 
-                                      <pre><code class="language-javascript">
-                                      Looping from 1 to 100 print out the following<br/>
-                                      // If the number is divisible by 3, log X foo<br/>
-                                      // if the number is divisible by 5, log X bar<br/>
-                                      // If the number is divisible by 15, log X foobar<br/>
-                                      // Only one output per number<br/>
-                                      // Expected output:<br/>
-                                      //<br/>
-                                      // 1<br/>
-                                      // 2<br/>
-                                      // 3 foo<br/>
-                                      // 4<br/>
-                                      // 5 bar
-                                      // 6 foo<br/>
-                                      // ...<br/>
-                                      // 15 foobar<br/>
-                                      // ...<br/>
-                                      // 100 bar 
-                                      </code></pre>                                   
-                                      </p>
-                                      
-                                  <img src="https://i.imgur.com/84pV9CHm.jpg" alt="link"></img><br/><br/>
-                                  <pre><code class="language-javascript">
-                                  <p>
-                                  const a = 4;<br/> 
-                                  const b = 53;<br/> 
-                                  const c = 57;<br/> 
-                                  const d = 16;<br/> 
-                                  const e = 'Dave';<br/> 
-                                  const f = false;<br/> 
-
-                              
-                                  'Dave' = 'Sux'<br/> 
-                                  a + b == c<br/> 
-                                  a * a == b<br/> 
-                                  e === 'Sux'<br/> 
-                                  42 == '42'<br/> 
-                                  </p>
-
-   </code></pre>
-   <pre><code class="language-javascript">
-                                 
-                                  let g = b + c;
-                                  
-
-<p></p>
-{/* for (let i = 1; i < 99; i++) {
-	console.log(i);
-} */}
-                                   </code></pre>
-                                    
-
-
-          </div>
-         </li>
-         <li>
-            <div class = "collapsible-header red darken-4">
-            <i class="fab fa-python black-text"></i>Python</div>
-            <div class = "collapsible-body"><p>
-                  <h1 className="header pink-text center-align">[ Python ]</h1><br/>
-                  
-              <p className="center-align">
-                  <a class="waves-effect waves-purple pink waves-light btn modal-trigger" href="#modal2">About Python Click Me</a>
-              </p>
-                  
-                  <div id="modal2" class="modal grey darken-4">
-                    <div class="modal-content">
-                      <h1>Pi What?</h1>
-                      <p>Python is a general purpose and high level programming language. You can use Python for developing desktop GUI applications, websites and web applications. Also, Python, as a high level programming language, allows you to focus on core functionality of the application by taking care of common programming tasks.<br/>-medium.com </p>
-                    </div>
-                    <div class="modal-footer red darken-4">
-                      <a href="spam" class="modal-close waves-effect waves-green btn-floating pulse">done</a>
-                    </div>
-                  </div>
-            <div className="center-align" >
-             <br/><p> for documents click</p> 
-             <a href="https://docs.python.org/3/" class="fab fa-python yellow-text center-align">Doc</a>
-             <p className="center-align">Basic of Python Code</p>
-             </div>
-             <pre><code>
-             the basics: <br/>
-             Data types:<br/>
-             Text Type:	str<br/>
-              Numeric Types:	int, float, complex<br/>
-              Sequence Types:	list, tuple, range<br/>
-              Mapping Type:	dict<br/>
-              Set Types:	set, frozenset<br/>
-              Boolean Type:	bool<br/>
-              Binary Types:	bytes, bytearray, memoryview<br/><br/>
-              Variables:<br/>
-              dave = 0<br/>
-              sux = 5<br/>
-              print(dave)<br/>
-              print(sux)<br/><br/>
-              Numbers:<br/>
-              int<br/>
-              float<br/>
-              complex<br/>
-              dave = 42<br/>
-              still = 4.2<br/>
-              sux = 4two<br/><br/>
-              </code></pre>
-              <p className="center-align">basic Syntax and loops:</p><br/>
-             <pre><code class="Python">player_name =  input("Ready to boogie what's your name? > ")<br/>
-print("ready for this {}".format(player_name) + 'let us Boogie')<br/>
-
-
-States=list(state_capitals.keys())# sets list with key<br/>
-print ('Your bitch ass still needs to learn US States and Capitals. 50 mf rounds. Enter exit to punk out.')<br/>
-point=0 <br/>
-for i in range(5): # sets up rounds<br/>
-    state=random.choice(States) <br/>
-    capital = state_capitals[state]<br/>
-    user_guess = input('what is the capital of %s?'%state + 'your going to get it wrong {}. '.format(player_name))<br/>
-    if user_guess.lower() == 'exit': # lets you to exit <br/>
-        break<br/>
-    elif user_guess.title() == capital:<br/>
-        point+=1<br/>
-        print('Want A Cookie! point to player %d' %point)<br/>
-    else:<br/>
-        print('You suck, The capital of {} is {}.'.format(state,capital))<br/>
-print('We are done here all you got right was %d, You are dead inside' %point) # end game<br/>
-restart = input("Do you want to restart the game {}? Yes or No ".format(player_name))<br/>
-if restart == 'yes':<br/>
-    main()<br/>
-    </code></pre> 
-       <p className="center-align"> For Fun an Games:</p><br/>
-        <pre class="line-numbers"><code class="language-python"> 
-        import sys<br/>
-import random<br/><br/>
-
-ans = True<br/><br/>
-
-while ans:<br/>
-    question = input("Ask the WareDave a question: (press enter to quit) ")<br/><br/>
-    
-    answers = random.randint(1,25)<br/><br/>
-    
-    if question == "":<br/><br/>
-        sys.exit()<br/>
-    
-    elif answers == 1:<br/><br/>
-        print ("f!@# you guys, I'm going home")<br/><br/>
-    
-    elif answers == 2:<br/><br/>
-        print ("we need to get the hell out of dodge")<br/><br/>
-    
-    elif answers == 3:<br/><br/>
-        print ("if it's going to be that kind of party")
-        <br/><br/>
-    elif answers == 4:<br/><br/>
-        print ("fuck off")<br/><br/>
-    
-    elif answers == 5:<br/><br/>
-        print ("your mother had a peg leg with a kick stand")<br/><br/>
-    
-    elif answers == 6:<br/><br/>
-        print ("han shot first")
-    
-    elif answers == 7:<br/><br/>
-        print ("doom,doom,doom. Time to sing the doom song.")<br/><br/>
-    
-    elif answers == 8:<br/><br/>
-        print ("Good, Bad, im the guy with the gun.")<br/><br/>
-		
-	elif answers == 9:<br/><br/>
-		print ("time to start hooking")
-		<br/><br/>
-	elif answers == 10:<br/><br/>
-		print ("Batman")<br/><br/>
-		
-	elif answers == 11:<br/><br/>
-		print ("Dick, as in you are a.")<br/><br/>
-		
-	elif answers == 12:<br/><br/>
-		print ("balls")<br/><br/>
-		
-	elif answers == 13:<br/><br/>
-		print ("your face hangs like sleaves of wizard")<br/><br/>
-		
-	elif answers == 14:<br/><br/>
-		print ("you are sick. why would you ask that?")<br/><br/>
-		
-	elif answers == 15:<br/><br/>
-		print ("you are alright guy")<br/><br/>
-		
-	elif answers == 16:<br/><br/>
-		print ("i donno, maybe get a cat.")<br/><br/>
-		
-	elif answers == 17:	<br/><br/>
-		print ("quit your day job")<br/><br/>
-	
-	elif answers == 18:<br/><br/>
-	    print ("you will die alone")<br/><br/>
-		
-	elif answers == 19:<br/><br/>
-		print ("you made it move, then you lost it. put the bag back on")<br/><br/>
-		
-	elif answers == 20:<br/><br/>
-		print ("try getting him drunk, he may not care that your ugly.")<br/><br/>
-		
-	elif answers == 21:<br/><br/>
-		print ("spam, spam eggs and spam")<br/><br/>
-		
-	elif answers == 22:<br/><br/>
-		print ("you mother was a hampster")<br/><br/>
-		
-	elif answers == 23:<br/><br/>
-		print ("no, you smell like candy")<br/><br/>
-		
-	elif answers == 24:<br/><br/>
-		print ("try the truck stop, you may have better luck.")<br/><br/>
-		
-	elif answers == 25: <br/><br/>
-		print ("not metal.")<br/><br/>
-          </code></pre>   
-            </p>
-            or get hardcore and used it with frameworks like flask and add postgresql or sqlite as a back end for web apps or apis<br/>
-            <img src="https://i.imgur.com/rt2jdMdl.jpg" alt="link"></img><img src="https://i.imgur.com/rt2jdMdl.jpg" alt="link"></img><br/> 
-            <img src="https://i.imgur.com/NGXlF6Nl.jpg" alt="link"></img><img src="https://i.imgur.com/NGXlF6Nl.jpg" alt="link"></img><br/> 
-            </div>
-         </li>
          
-       
+        
+        
       </ul>	 
       
-      {/* <Route
-            exact path="/posts"
-            render={(props) => 
-              <PostContainer {...props}
-              />
-            }
-          /> */}
+    
  <footer>
           <div class="footer-copyright">
             <div class="container">

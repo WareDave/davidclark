@@ -127,3 +127,58 @@ li {
     transform: rotate(360deg);
   }
 }
+
+.cock{
+  color: darkorange;
+  font-size: large;
+  
+}
+.cock:hover{
+  color: darkgreen;
+  font-size: larger;
+  box-shadow: 0 4px 8px 0 blueviolet, 0 6px 20px 0 black;
+}
+
+.doom{
+  height: 60px;
+  background: rgb(0,0,0);
+background: radial-gradient(circle, rgba(0,0,0,1) 25%, rgba(97,1,18,1) 50%, rgba(0,0,0,1) 100%);
+border-radius: 15%;
+  color: whitesmoke;
+  padding: 1em;
+  padding-left: 10px;
+  box-shadow: 0 4px 8px 0 goldenrod, 0 6px 20px 0 black;
+}
+.doom:hover{
+  padding: 1em;
+  opacity: 0.5;
+  background-image: url('https://i.imgur.com/mpyQcm3s.jpg'); 
+  
+}
+.spike{
+  height: 300px;
+  width: 300px;
+  border-radius: 25%;
+  border: 1px ridge black;
+  box-shadow: 0 4px 8px 0 goldenrod, 0 6px 20px 0 black;
+}
+
+img:hover{
+  padding: 1em;
+  opacity: 0.5;
+  background-image: url('https://i.imgur.com/mpyQcm3s.jpg'); 
+}
+
+.jordi{
+  max-height: 200px;
+  margin: auto; 
+  display: block;
+  border: 1px ridge black;
+  box-shadow: 0 4px 8px 0 rgb(190, 73, 73), 0 6px 20px 0 black;
+  margin-right: 20px;
+  border-radius: 0%;
+  margin: auto; 
+  display: inline;
+  overflow:hidden;
+  position: block;
+}
