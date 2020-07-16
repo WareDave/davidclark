@@ -94,10 +94,11 @@ class Header extends Component {
   <div class="carousel-item grey darken-4 white-text" href="/">
   <h1 className="header pink-text">[ David L. Clark ]</h1>
   <h2 className="header pink-text" >software wizard<br/>
-      email me at <a class="green-text" href='davetheclark87@gmail.com'>davetheclark87@gmail.com</a></h2>
+      email me at <a href="mailto:davetheclark87@gmail.com">Davetheclark@gmail.com</a>
+      </h2>
     <p class="red-text"> <i class="fas fa-exclamation-triangle"></i> Hairy Wizard Not The Wizard Harry <i class="fas fa-exclamation-triangle"></i> </p>
-    
     <br/>
+    
   </div>
  
   <div class="carousel-item  grey lighten-1 black-text" href="/">

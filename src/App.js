@@ -211,8 +211,9 @@ class App extends Component {
         
         
       </ul>	 
-      
-    
+      <p class='center-align'>
+      <img class='spike1' src='https://i.imgur.com/ZMpPE4Z.png'></img><img class='spike1' src='https://i.imgur.com/SZJEs9e.png'></img> <img class='spike1' src='https://i.imgur.com/LsOc40a.png'></img><a href="mailto:davetheclark87@gmail.com"><img class='spike1' src='https://i.imgur.com/yqMMdJe.png'></img> </a>  
+      </p>
  <footer>
           <div class="footer-copyright">
             <div class="container">
