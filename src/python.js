@@ -214,11 +214,11 @@ while ans:<br/>
 	elif answers == 25: <br/><br/>
 		print ("not metal.")<br/><br/>
           </code></pre>   
-            </p>
+            </p><p class='center-align'>
             or get hardcore and used it with frameworks like flask and add postgresql or sqlite as a back end for web apps or apis<br/>
             <img src="https://i.imgur.com/rt2jdMdl.jpg" alt="link"></img><img src="https://i.imgur.com/rt2jdMdl.jpg" alt="link"></img><br/> 
             <img src="https://i.imgur.com/NGXlF6Nl.jpg" alt="link"></img><img src="https://i.imgur.com/NGXlF6Nl.jpg" alt="link"></img><br/> 
-
+            </p>
  <footer>
           <div class="footer-copyright">
             <div class="container">

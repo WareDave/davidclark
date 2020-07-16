@@ -55,7 +55,8 @@ class Myapps extends Component {
     return(
       
       <main>
-        <p><h1 className="header pink-text">[ WareDave Projects ]</h1><br/>
+        <Header/>
+        <p class='center-align'><h1 className="header pink-text">[ Forged In Fire By Dave Clark ]</h1><br/>
            
            Express App:<br/>
            <img src="https://i.imgur.com/ioK9cB8m.jpg" alt='starfleet'></img><br/>
@@ -69,9 +70,9 @@ class Myapps extends Component {
            <a class="btn waves-effect waves-purple black red-text darken-text-2" href="https://profiles.generalassemb.ly/profiles/david-clark" target="_blank" rel="noopener noreferrer">GA</a>
 
            </p>
-           <p>
-           <h1>[ Out The Box ]</h1>
-                  <img class='balls' src="https://i.imgur.com/engcPUw.jpg" alt="link"></img><br/>
+           <p class='center-align'>
+           <h1 class='center-align'>[ Out The Box ]</h1>
+                  <a href='https://www.instagram.com/outthebox303/' target='blank'><img class='balls' src="https://i.imgur.com/engcPUw.jpg" alt="link"></img></a><br/>
                   <a class="waves-effect waves-light red-text btn black modal-trigger" href="#modal4">About</a>
 
 
@@ -91,18 +92,19 @@ class Myapps extends Component {
                         </div>
                     </div>
                   <br/><a class="btn waves-effect waves-purple red black-text darken-text-2" href="https://www.outtheboxshop.com/" target="_blank" rel="noopener noreferrer">Shop<i class="material-icons right">add_shopping_cart</i></a><br/>
-                  10215 Washington Street, Thornton, Colorado 80229 | Phone: 720-287-2082<br/> <a href="https://www.instagram.com/outthebox303/" class="fa fa-instagram"></a><a href="https://www.youtube.com/channel/UCDDgyvtmOxFyeLCc9DTNLSA" class="fa fa-youtube"></a><a href="https://www.facebook.com/outthebox303/
-                  " class="fa fa-facebook"></a>
+                  10215 Washington Street, Thornton, Colorado 80229 | Phone: 720-287-2082<br/> 
+                  <a href='https://www.instagram.com/outthebox303/'> <img class="cbgb" src='https://i.imgur.com/iO75bdO.png'></img> </a><a href='https://www.facebook.com/outthebox303/'> <img class="cbgb" src='https://i.imgur.com/fvkvJGt.png'></img></a><a href='https://www.youtube.com/channel/UCDDgyvtmOxFyeLCc9DTNLSA'> <img class="cbgb" src='https://i.imgur.com/M1jhCXr.png'></img></a><br/>
             </p>
-            <p>Developed and maintain outheboxshop.com</p>
-            <p>Working On :<br/>
+            <p class='center-align'>Developed and maintain outheboxshop.com</p>
+            <p class='center-align'>Working On :<br/>
             I am currently working on a vendor intake app with new owner Ernesto, and the team at Consign Connect on a Full stack MERN app to using React-PDF, and Bootstrap for style.
  
             </p>
-           <h1>[ Soylent Shenanigans ]</h1>
-                <img class='balls' src="https://i.imgur.com/s7gantL.jpg" alt="link"></img><br/> 
-                <a class="purple-text darken-text-2" href="https://www.instagram.com/soylent_shenanigans/?hl=en" target="_blank" rel="noopener noreferrer">Follow Soylent Shenanigans<br/><a href="https://www.instagram.com/soylent_shenanigans/?hl=en" class="fa fa-instagram"></a></a> <a href="https://www.facebook.com/SoylentShenanigans/" class="fa fa-facebook"></a><br/>
-                <p>Worked On :<br/>
+           <h1 class='center-align'>[ Soylent Shenanigans ]<br/>
+               <a href='https://www.soylentshenanigans.com/' target='blank'> <img class='balls' src="https://i.imgur.com/s7gantL.jpg" alt="link"></img></a><br/> 
+                <p class='center-align'><a href="https://www.instagram.com/soylent_shenanigans/?hl=en"><img class='jordi center-align' src="https://i.imgur.com/afko6pK.png"   target='blank'></img> </a>  <a href="https://www.facebook.com/SoylentShenanigans/" target='blank'><img class='jordi center-align' src="https://i.imgur.com/J9ikY9T.png" ></img></a></p>
+                
+                </h1><p class='center-align'>Worked On :<br/>
                 <a href='https://www.soylentshenanigans.com/'>www.soylentshenanigans.com</a></p> 
                 
 

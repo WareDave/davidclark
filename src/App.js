@@ -55,7 +55,7 @@ class App extends Component {
          <Header/>
 <h1 class='center-align'>
          <a class="btn-floating btn-large waves-effect doom left-align"><Link to='/spam&eggs'> <i href="/spam&eggs" class="fab fa-python"></i></Link>  </a>
-         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/myapps'>My Apps</Link>  </a> 
+         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/MyApps'>My Apps</Link>  </a> 
          
          <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/contact'>Contact Me</Link>  </a>   
         <a class="btn-floating btn-large waves-effect doom right-align"><Link to='/js'><i href="" class="fab fa-js-square"></i>  </Link>  </a>
@@ -165,8 +165,8 @@ class App extends Component {
     </div>
   </div>
                   <br/><a class="btn waves-effect waves-purple red black-text darken-text-2" href="https://www.outtheboxshop.com/" target="_blank" rel="noopener noreferrer">Shop<i class="material-icons right">add_shopping_cart</i></a><br/>
-                  10215 Washington Street, Thornton, Colorado 80229 | Phone: 720-287-2082<br/> <a href="https://www.instagram.com/outthebox303/" class="fa fa-instagram"></a><a href="https://www.youtube.com/channel/UCDDgyvtmOxFyeLCc9DTNLSA" class="fa fa-youtube"></a><a href="https://www.facebook.com/outthebox303/
-                  " class="fa fa-facebook"></a>
+                  10215 Washington Street, Thornton, Colorado 80229 | Phone: 720-287-2082<br/>
+                  <a href='https://www.instagram.com/outthebox303/'> <img class="cbgb" src='https://i.imgur.com/iO75bdO.png'></img> </a><a href='https://www.facebook.com/outthebox303/'> <img class="cbgb" src='https://i.imgur.com/fvkvJGt.png'></img></a><a href='https://www.youtube.com/channel/UCDDgyvtmOxFyeLCc9DTNLSA'> <img class="cbgb" src='https://i.imgur.com/M1jhCXr.png'></img></a><br/>
             </p>
             <p>Developed and maintain outheboxshop.com</p>
             <p>Working On :<br/>

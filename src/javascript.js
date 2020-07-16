@@ -56,11 +56,12 @@ class Javascripts extends Component {
       
       <main>
           <Header/>
-         <p>
-<h1 className="header pink-text">[ JavaScript ]</h1> <br/>
-<i href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square"></i>   
+         <p class='center-align'>
+<h1 class='center-align' className="header pink-text">[ JavaScript ]</h1> <br/>
+<h1 class='center-align'>
+<i href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square center-align"></i>   
             <a class="waves-effect waves-purple pink waves-light btn modal-trigger" href="#modal3">About JavaScript</a>
-           
+            </h1>           
 
                   
               <div id="modal3" class="modal grey darken-4">
@@ -85,7 +86,7 @@ class Javascripts extends Component {
               </div>           
             </p>
 
-              <p><pre><code class="language-javascript">
+              <p ><pre><code class="language-javascript">
                           Data Types:
                                       undefined : "undefined"<br/>
                                       Boolean : "boolean"<br/>
