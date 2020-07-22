@@ -56,7 +56,7 @@ class App extends Component {
 <h1 class='center-align'>
          <a class="btn-floating btn-large waves-effect doom left-align"><Link to='/spam&eggs'> <i href="/spam&eggs" class="fab fa-python"></i></Link>  </a>
          <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/MyApps'>My Apps</Link>  </a> 
-         
+         <a href='https://master.d2aw80yfrgom4l.amplifyapp.com/' class="waves-effect doom btn-large center-align">Games</a>
          <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/contact'>Contact Me</Link>  </a>   
         <a class="btn-floating btn-large waves-effect doom right-align"><Link to='/js'><i href="" class="fab fa-js-square"></i>  </Link>  </a>
         </h1>
