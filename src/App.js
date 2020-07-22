@@ -212,7 +212,7 @@ class App extends Component {
         
       </ul>	 
       <p class='center-align'>
-      <img class='spike1' src='https://i.imgur.com/ZMpPE4Z.png'></img><img class='spike1' src='https://i.imgur.com/SZJEs9e.png'></img> <img class='spike1' src='https://i.imgur.com/LsOc40a.png'></img><a href="mailto:davetheclark87@gmail.com"><img class='spike1' src='https://i.imgur.com/yqMMdJe.png'></img> </a>  
+      <a href='https://www.linkedin.com/feed/'><img class='spike1' src='https://i.imgur.com/ZMpPE4Z.png' alt='dave clark linked in qr dev'></img></a><a href='/' alt='dave clark home dev website '><img class='spike1' src='https://i.imgur.com/SZJEs9e.png'></img></a> <a href='https://github.com/WareDave'><img class='spike1' src='https://i.imgur.com/LsOc40a.png'></img></a><a href="mailto:davetheclark87@gmail.com"><img class='spike1' src='https://i.imgur.com/yqMMdJe.png'></img></a>  
       </p>
  <footer>
           <div class="footer-copyright">

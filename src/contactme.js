@@ -62,7 +62,8 @@ class Contact extends Component {
                     <a href="mailto:davetheclark87@gmail.com">Davetheclark@gmail.com</a>
                     <p class='center-align'>Ambitious and dedicated software wizard with a background in operations and quality assurance. Capable of learning new processes and systems quickly, and able to contribute as a resourceful team member and successfully work independently. It gives me great joy to combine my love of efficiency and skills as a wizard to create intuitive web and app experiences.<br/>
             Please see [ mad skills ] section on the <Link href='/'>Home </Link>page for spells or visit my GitHub  <a href="https://github.com/WareDave" class="fa fa-github"></a><br/></p>
-     <img class='spike' src='https://i.imgur.com/ZMpPE4Z.png'></img><img class='spike' src='https://i.imgur.com/SZJEs9e.png'></img> <img class='spike' src='https://i.imgur.com/LsOc40a.png'></img><a href="mailto:davetheclark87@gmail.com"><img class='spike' src='https://i.imgur.com/yqMMdJe.png'></img> </a>  
+
+     <a href='https://www.linkedin.com/feed/'><img class='spike2' src='https://i.imgur.com/ZMpPE4Z.png' alt='dave clark linked in qr dev'></img></a><a href='/' alt='dave clark home dev website '><img class='spike2' src='https://i.imgur.com/SZJEs9e.png'></img></a> <a href='https://github.com/WareDave'><img class='spike2' src='https://i.imgur.com/LsOc40a.png'></img></a><a href="mailto:davetheclark87@gmail.com"><img class='spike2' src='https://i.imgur.com/yqMMdJe.png'></img></a>  
      </p>
 
  <footer>

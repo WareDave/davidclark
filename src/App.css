@@ -167,6 +167,8 @@ img:hover{
   padding: 1em;
   opacity: 0.5;
   background-image: url('https://i.imgur.com/mpyQcm3s.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jordi{
@@ -187,5 +189,35 @@ img:hover{
   height: 100px;
   width: 100px;
   border: 1px ridge black;
+  padding: 0.5em;
   box-shadow: 0 4px 8px 0 goldenrod, 0 6px 20px 0 black;
+}
+
+.spike1:hover{
+  height: 100px;
+  width: 100px;
+  border: 1px ridge black;
+  padding: 0.5em;
+  box-shadow: 0 4px 8px 0 violet, 0 6px 20px 0 black;
+  opacity: 0.5;
+  background-image: url('https://i.imgur.com/cimGkIfs.jpg');
+}
+
+.spike2{
+  height: 300px;
+  width: 300px;
+  border: 1px ridge black;
+  box-shadow: 0 4px 8px 0 goldenrod, 0 6px 20px 0 black;
+  padding: 1em;
+}
+
+.spike2:hover{
+  height: 300px;
+  width: 300px;
+  border: 1px ridge black;
+  box-shadow: 0 4px 8px 0 indigo, 0 6px 20px 0 black;
+  opacity: 0.5;
+  background-image: url('https://i.imgur.com/iMiYx2a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }

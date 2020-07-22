@@ -8,7 +8,6 @@ import Python from './python'
 import Javascripts from './javascript'
 import Myapps from './myapps'
 import Contact from './contactme'
-// import Preloader from './components/Preloader'
 import {Route, Switch} from 'react-router-dom'
 import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
@@ -22,7 +21,7 @@ ReactDOM.render(
                <Route exact path="/spam&eggs" component={Python}/>
                <Route exact path="/EJS" component={Javascripts}/>
                <Route exact path="/MyApps" component={Myapps}/> 
-               <Route exact path="/contact" component={Contact}/> 
+               <Route exact path="/contact" component={Contact}/>
                 <Route path="*" component={PageNotFound} /> 
             </Switch>
            
