@@ -55,9 +55,12 @@ class App extends Component {
          <Header/>
 <h1 class='center-align'>
          <a class="btn-floating btn-large waves-effect doom left-align"><Link to='/spam&eggs'> <i href="/spam&eggs" class="fab fa-python"></i></Link>  </a>
-         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/MyApps'>My Apps</Link>  </a> 
-         <a href='https://master.d2aw80yfrgom4l.amplifyapp.com/' class="waves-effect doom btn-large center-align" target='blank'>Games</a>
-         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/contact'>Contact Me</Link>  </a>   
+         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/MyApps'><i class="fab fa-app-store-ios"></i> My Apps</Link>  </a> 
+         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/mtg'><i class="fab fa-wizards-of-the-coast"></i> Counter</Link>  </a>
+
+         <a href='https://master.d2aw80yfrgom4l.amplifyapp.com/' class="waves-effect doom btn-large center-align" target='blank'><p class='fuck'>Chess<i class="fas fa-chess"></i></p></a>
+         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/dice'></Link> Dice <i class="fab fa-d-and-d"></i></a>
+         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/contact'>Contact<i class="fas fa-mail-bulk"></i></Link>  </a>   
         <a class="btn-floating btn-large waves-effect doom right-align"><Link to='/js'><i href="" class="fab fa-js-square"></i>  </Link>  </a>
         </h1>
       <ul class = "collapsible" data-collapsible = "expandable">

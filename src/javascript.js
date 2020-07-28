@@ -45,6 +45,9 @@ class Javascripts extends Component {
     var elem = document.querySelector('.carousel');
     var instance = M.Carousel.init(elem, {fullWidth: true,
       indicators: true });
+
+
+
   }
 
 
@@ -55,7 +58,11 @@ class Javascripts extends Component {
     return(
       
       <main>
+        
           <Header/>
+
+          <br/>
+          
          <p class='center-align'>
 <h1 class='center-align' className="header pink-text">[ JavaScript ]</h1> <br/>
 <h1 class='center-align'>

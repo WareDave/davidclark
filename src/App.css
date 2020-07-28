@@ -252,3 +252,447 @@ button:hover{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.fuck{
+  color: goldenrod;
+  box-shadow: 0 4px 8px 0 darkred, 0 6px 20px 0 black;
+  text-shadow: 0 4px 8px 0 rgb(190, 73, 73), 0 6px 20px 0 black; 
+  margin: auto; 
+  display: inline;
+  overflow:hidden;
+  position: block;
+  font-size: large;
+  
+}
+
+.fuck:hover{
+  color: lawngreen;
+  text-shadow: 0 4px 8px 0 violet, 0 6px 20px 0 black; 
+  margin: auto; 
+  display: inline;
+  overflow:hidden;
+  position: block;
+  font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css for mtg */
+
+
+ *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+    -webkit-transition: opacity 0.1s ease-in-out;
+    -moz-transition: opacity 0.1s ease-in-out;
+    -o-transition: opacity 0.1s ease-in-out;
+    -ms-transition: opacity 0.1s ease-in-out;    
+    transition: opacity 0.1s ease-in-out;
+}
+
+
+
+#container1 {
+  background-color: linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	font-size: 2.5em;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 indigo, 0 6px 20px 0 black;
+  text-shadow: 0 4px 8px 0 violet, 0 6px 20px 0 black; 
+}
+
+.right1 { 
+	float: right;
+	width: 40%;
+	margin: 20px;	
+}
+
+.left1 {
+	float: left;
+	width: 40%;
+	margin: 20px;
+}
+
+label {
+	font-size: 0.8em;
+	display: block;
+	margin: 0 0 20px;
+	padding: 5px 0;
+	opacity: 0.9;
+	background-color: darkmagenta;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, darkmagenta), color-stop(100%, #CCC));
+	background-image: -webkit-linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	background-image: -moz-linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	background-image: -ms-linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	background-image: -o-linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	background-image: linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	border: 1px solid darkred;
+	border-bottom: 1px solid black;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	text-shadow: 0 1px 0 darkmagenta;
+  background-color: darkmagenta;
+  text-shadow: 0 4px 8px 0 violet, 0 6px 20px 0 black; 
+}
+
+#YourLife {
+	opacity: 0.9;
+	background-color: darkmagenta;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, darkmagenta), color-stop(100%, #CCC));
+	background-image: -webkit-linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	background-image: -moz-linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	background-image: -ms-linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	background-image: -o-linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	background-image: linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	border: 1px solid darkred;
+	border-bottom: 1px solid black;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	color: whitesmoke;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	padding: 8px 0;
+	text-align: center;
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+}
+
+#YourCount {
+	text-align: center;
+  font-size: 2em;
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+
+}
+
+#YourUp {
+  display: block;
+	text-align: center;
+	border-bottom: 1px solid darkred;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+}
+
+#YourDown {
+  display: block;
+	text-align: center;
+	border-top: 1px solid darkred;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+}
+
+#FoeLife {
+	opacity: 0.9;
+	background-color: darkmagenta;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, darkmagenta), color-stop(100%, #CCC));
+	background-image: -webkit-linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	background-image: -moz-linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	background-image: -ms-linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	background-image: -o-linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	background-image: linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+	border: 1px solid darkred;
+	border-bottom: 1px solid black;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	color: whitesmoke;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	padding: 8px 0;
+	text-align: center;
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+
+}
+
+#FoeCount {
+	text-align: center;
+  font-size: 2em;
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+
+}
+
+#FoeUp {
+  display: block;
+	text-align: center;
+	border-bottom: 1px solid darkred;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+
+}
+
+#FoeDown {
+  display: block;
+	text-align: center;
+	border-top: 1px solid darkred;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+
+}
+
+#YourUp, #YourDown, #FoeUp, #FoeDown, #YourUp, #YourDown, #FoeUp, #FoeDown {
+  opacity: 0.5;
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+}
+
+#reset {
+	display: block;
+	font-size: 3em;
+	line-height: 1.3em;
+	text-align: center;
+	height: 165px;
+	width: 165px;
+	position: fixed;
+	bottom: 0px;
+	right: 5px;
+
+	color: rgb(41, 1, 19);
+  color: linear-gradient(118deg, rgba(63,63,63,1) 0%, rgba(226,226,226,1) 87%, rgba(173,173,173,1) 100%);
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+	
+	background: rgb(46,7,25);
+  background: linear-gradient(180deg, rgba(46,7,25,1) 0%, rgba(0,0,0,1) 21%, rgba(113,0,67,1) 22%, rgba(128,0,95,1) 78%, rgba(0,0,0,1) 79%);
+
+	-webkit-border-top-left-radius: 30px;
+	-moz-border-radius-topleft: 30px;
+	border-top-left-radius: 30px;
+}
+
+#commander {
+	display: block;
+	height: 165px;
+	width: 165px;
+	position: fixed;
+	bottom: 0px;
+	left: 5px;
+  
+	font-size: 3em;
+	line-height: 1.3em;
+	text-align: center;  
+	color: rgb(41, 1, 19);
+  color: linear-gradient(118deg, rgba(63,63,63,1) 0%, rgba(226,226,226,1) 87%, rgba(173,173,173,1) 100%);
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+	
+  background: rgb(46,7,25);
+  background: linear-gradient(180deg, rgba(46,7,25,1) 0%, rgba(0,0,0,1) 21%, rgba(113,0,67,1) 22%, rgba(128,0,95,1) 78%, rgba(0,0,0,1) 79%);
+
+	-webkit-border-top-right-radius: 30px;
+	-moz-border-radius-topright: 30px;
+	border-top-right-radius: 30px;
+}
+
+
+#commander:hover {
+	display: block;
+	height: 165px;
+	width: 165px;
+	position: fixed;
+	bottom: 0px;
+	left: 5px;
+  opacity: .5em;
+	font-size: 3em;
+	line-height: 1.3em;
+	text-align: center;  
+	color: rgb(41, 1, 19);
+  color: linear-gradient(118deg, rgba(63,63,63,1) 0%, rgba(226,226,226,1) 87%, rgba(173,173,173,1) 100%);
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+	
+  background: rgb(46,7,25);
+  background: linear-gradient(180deg, rgba(46,7,25,1) 0%, rgba(0,0,0,1) 21%, rgba(113,0,67,1) 22%, rgba(128,0,95,1) 78%, rgba(0,0,0,1) 79%);
+
+	-webkit-border-top-right-radius: 30px;
+	-moz-border-radius-topright: 30px;
+	border-top-right-radius: 30px;
+}
+
+#reset:hover {
+	display: block;
+	font-size: 3em;
+	line-height: 1.3em;
+	text-align: center;
+	height: 165px;
+	width: 165px;
+	position: fixed;
+	bottom: 0px;
+	right: 5px;
+opacity: .5em;
+	color: rgb(41, 1, 19);
+  color: linear-gradient(118deg, rgba(63,63,63,1) 0%, rgba(226,226,226,1) 87%, rgba(173,173,173,1) 100%);
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+	
+	background: rgb(46,7,25);
+  background: linear-gradient(180deg, rgba(46,7,25,1) 0%, rgba(0,0,0,1) 21%, rgba(113,0,67,1) 22%, rgba(128,0,95,1) 78%, rgba(0,0,0,1) 79%);
+
+	-webkit-border-top-left-radius: 30px;
+	-moz-border-radius-topleft: 30px;
+	border-top-left-radius: 30px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://i.imgur.com/HoFcoyq.jpg");
+  
+
+  /* Set a specific height */
+  height: 1500px;
+  max-height: 1500px;
+  min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.nav, .nav-wrapper, .nav-mobile, .dropdown-content {
+  box-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  text-shadow: 0 4px 8px 0 rgb(83, 3, 3), 0 6px 20px 0 whitesmoke;
+  background: rgb(82,0,0);
+  background: linear-gradient(60deg, rgba(82,0,0,1) 15%, rgba(94,41,0,0.6313120860927153) 55%, rgba(0,0,0,1) 100%);
+}
+
+
+
+/* new carosel */
+
+/* Slideshow container */
+
+.slideshow-container {
+  background-image: url("https://i.imgur.com/EptAiMh.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 4px 8px 0 rgb(190, 73, 73), 0 6px 20px 0 black;
+  max-width: 100%;
+  height: 400px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: gold;
+  text-shadow: 0 4px 8px 0 rgb(151, 136, 0), 0 6px 20px 0 whitesmoke;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.text2 {
+  color: gold;
+  
+  text-shadow: 0 4px 8px 0 rgb(151, 136, 0), 0 6px 20px 0 whitesmoke;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: fuchsia;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.spike3{
+ color: powderblue;
+  text-shadow: 0 4px 8px 0 goldenrod, 0 6px 20px 0 black;
+}

@@ -179,6 +179,7 @@ class Dice extends Component {
       
       <main>
           <Header/>
+          <div className="parallax"></div>
           <p id="placeholder">
   
   </p>
@@ -197,10 +198,8 @@ class Dice extends Component {
   <footer>
           <div class="footer-copyright">
             <div class="container">
-             Forged In Fire By The <a class="green-text" href="https://github.com/WareDave">WareDave  <i class="fa fa-github"></i></a> 
-            <a class="pink-text text-lighten-4 right" href="/">© 2020 Copyright</a>
-
-           
+             Forged In Fire By The <a class="green-text" href="https://github.com/WareDave">WareDave  <i class="fa fa-github"></i> © 2020 Copyright</a> 
+         
             </div>
           </div>
         

@@ -8,42 +8,60 @@ M.AutoInit();
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.tap-target');
-  var instances = M.TapTarget.init(elems, {});
+  let elems = document.querySelectorAll('.tap-target');
+  let instances = M.TapTarget.init(elems, {});
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.tooltipped');
-  var instances = M.Tooltip.init(elems, {});
+  let elems = document.querySelectorAll('.tooltipped');
+  let instances = M.Tooltip.init(elems, {});
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.modal');
-  var instances = M.Modal.init(elems, {});
+  let elems = document.querySelectorAll('.modal');
+  let instances = M.Modal.init(elems, {});
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.materialboxed');
-  var instances = M.Materialbox.init(elems, {duration: 400 });
+  let elems = document.querySelectorAll('.materialboxed');
+  let instances = M.Materialbox.init(elems, {duration: 400 });
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.dropdown-trigger');
-  var instances = M.Dropdown.init(elems, {hover: true});
+  let elems = document.querySelectorAll('.dropdown-trigger');
+  let instances = M.Dropdown.init(elems, {hover: true});
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.scrollspy');
-  var instances = M.ScrollSpy.init(elems, {scrollOffset: 0, activeClass: 'active', throttle: 100});
+  let elems = document.querySelectorAll('.scrollspy');
+  let instances = M.ScrollSpy.init(elems, {scrollOffset: 0, activeClass: 'active', throttle: 100});
 });
 
 
 class Header extends Component {
  
   componentDidMount() {
-    var elem = document.querySelector('.carousel');
-    var instance = M.Carousel.init(elem, {fullWidth: true,
-      indicators: true });
+   
+
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+     
+      setTimeout(showSlides, 9999); // Change image every 2 seconds
+    }
   }
 
 
@@ -84,51 +102,68 @@ class Header extends Component {
   </div>
 </nav>
 </div>
-        
-          
 
-<div class="carousel carousel-slider center">
-  <div class="carousel-fixed-item center">
-    <a class="btn-floating pulse black black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
-  </div>
-  <div class="carousel-item grey darken-4 white-text" href="/">
-  <h1 className="header pink-text">[ David L. Clark ]</h1>
-  <h2 className="header pink-text" >software wizard<br/>
-      email me at <a href="mailto:davetheclark87@gmail.com">Davetheclark@gmail.com</a>
-      </h2>
-    <p class="red-text"> <i class="fas fa-exclamation-triangle"></i> Hairy Wizard Not The Wizard Harry <i class="fas fa-exclamation-triangle"></i> </p>
-    <br/>
-    
-  </div>
- 
-  <div class="carousel-item  grey lighten-1 black-text" href="/">
-  <h1 className="header black-text">
-  <i class="fas fa-hand-spock"></i></h1>
-  <h4>[ Dave ]</h4>
-    <p class="black-text">Ambitious and dedicated software wizard with a background in operations and quality assurance.<br/>
-     Capable of learning new processes and systems quickly, and able to contribute as a resourceful team member and successfully work independently.<br/>
-     It gives me great joy to combine my love of efficiency and skills as a wizard to create intuitive web and app experiences.<br/>
-     Please see [ mad skills ] section for spells or visit my GitHub</p>
-  </div>
-  <div class="carousel-item black white-text" href="/">
-  <h1 className="header pink-text">[ Dave Clark ]</h1>
-       <i href="https://www.python.org/" class="fab fa-python"></i>  <i href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square"></i>  <i class="fab fa-html5"></i>  <i class="fab fa-css3-alt"></i>  <i class="fab fa-node-js"></i>  <i class="fab fa-react"></i> <i class="fab fa-angular"></i> <i class="fab fa-bootstrap"></i>  <i class="fab fa-aws"></i>  <a href="https://github.com/WareDave" class="fa fa-github white-text"></a>  <i href="https://company.wizards.com/content/games" class="fab fa-d-and-d white-text"></i><br/>
-       <p> JQuery | JSON | SQL | PostgreSQL | MySQL | SQLite | MongoDB<br/>
-        Style: SASS |  Bulma  <br/>
-        Testing: Postman | VScode | Sublime <br/>
-        CLI: Terminal | cmd | Bash 
-        OS: <i class="fab fa-apple"></i> | <i class="fab fa-linux"></i> | <i class="fab fa-windows"></i></p><br/>
-            
-  </div>
-  <div class="carousel-item black white-text" href="#four!">
-    <h2>come see me on <a href="https://www.linkedin.com/in/dave-the-clark/" class="fa fa-linkedin"></a></h2>
-    <h1 class="pink-text">Or On GA <a href="https://profiles.generalassemb.ly/profiles/david-clark">Profiles</a></h1>
-    need a Dev Wizard email me direct at<br/>
-    davetheclark87@gmail.com
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <div class="text2">
+  [ David L. Clark ]<br/>
+ software wizard<br/>
+      email me at <a class='spike3' href="mailto:davetheclark87@gmail.com">Davetheclark@gmail.com</a><br/><br/>
+      
+   <i class="fas fa-exclamation-triangle"></i> Hairy Wizard Not The Wizard Harry <i class="fas fa-exclamation-triangle"></i> 
   </div>
 </div>
 
- 
+<div class="mySlides fade">
+  <div id="numbertext">2 / 3</div>
+  
+  <div class="text2">
+  <h1 className="header black-text">
+  <i class="fas fa-hand-spock"></i></h1>
+  [ Dave ]<br/>
+    Ambitious and dedicated software wizard with a background in operations and quality assurance.<br/>
+     Capable of learning new processes and systems quickly, and able to contribute as a resourceful team member and successfully work independently.<br/>
+     It gives me great joy to combine my love of efficiency and skills as a wizard to create intuitive web and app experiences.<br/>
+     Please see [ mad skills ] section for spells or visit my GitHub  <a href="https://github.com/WareDave" class="fa fa-github white-text"></a> 
+
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <div id="numbertext">3 / 3</div>
+
+  <div class="text2">
+  [ Dave Clark ]<br/>
+       <i class='spike3' href="https://www.python.org/" class="fab fa-python"></i>  <i class='spike3' href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square"></i>  <i class="fab fa-html5"></i>  <i class="fab fa-css3-alt"></i>  <i class="fab fa-node-js"></i>  <i class="fab fa-react"></i> <i class="fab fa-angular"></i> <i class="fab fa-bootstrap"></i>  <i class="fab fa-aws"></i>  <a href="https://github.com/WareDave" class="fa fa-github white-text"></a>  <i class='spike3' href="https://company.wizards.com/content/games" class="fab fa-d-and-d white-text"></i><br/>
+        JQuery | JSON | SQL | PostgreSQL | MySQL | SQLite | MongoDB<br/>
+        Style: SASS |  Bulma  <br/>
+        Testing: Postman | VScode | Sublime <br/>
+        CLI: Terminal | cmd | Bash <br/>
+        OS: <i class="fab fa-apple"></i> | <i class="fab fa-linux"></i> | <i class="fab fa-windows"></i><br/>
+  </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)"><i onclick="plusSlides(-1)"></i></a>
+<a class="next" onclick="plusSlides(1)"><i onclick="plusSlides(1)" class="fas fa-forward"></i></a>
+
+</div>
+
+
+<div>
+  <span id="dot" onclick="currentSlide(1)"></span> 
+  <span id="dot" onclick="currentSlide(2)"></span> 
+  <span id="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+
+
+        
+          
+
+
         
       
 
