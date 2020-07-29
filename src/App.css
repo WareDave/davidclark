@@ -41,10 +41,51 @@ body {
   min-height: 100vh;
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgb(190, 73, 73), 0 6px 20px 0 black;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(91,3,3,1) 35%, rgba(0,0,0,1) 100%);
-  color: goldenrod;
+  background: rgb(82,0,0);
+  background: linear-gradient(60deg, rgba(82,0,0,1) 15%, rgba(94,41,0,0.6313120860927153) 55%, rgba(0,0,0,1) 100%);
+  color: silver;
   
 }
+
+.collapsible-header{
+  background: rgb(82,0,0);
+  background: linear-gradient(60deg, rgba(82,0,0,1) 15%, rgba(94,41,0,0.6313120860927153) 55%, rgba(0,0,0,1) 100%); 
+}
+
+.collapsible-body{
+  background: rgb(0,0,0);
+  background: linear-gradient(10deg, rgba(0,0,0,1) 50%, rgba(91,2,0,1) 100%);
+}
+
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+
+
 img{
   text-shadow: 0 4px 8px 0 rgb(190, 73, 73), 0 6px 20px 0 black;   
 }
@@ -696,3 +737,31 @@ opacity: .5em;
  color: powderblue;
   text-shadow: 0 4px 8px 0 goldenrod, 0 6px 20px 0 black;
 }
+
+.btn-group button {
+  background: rgb(31,19,69);
+  background: linear-gradient(178deg, rgba(31,19,69,1) 0%, rgba(140,7,148,1) 100%, rgba(158,18,169,1) 100%);
+  border-radius: 10%;
+  color: goldenrod;
+  box-shadow: 0 4px 8px 0 darkred, 0 6px 20px 0 black;
+  text-shadow: 0 4px 8px 0 rgb(190, 73, 73), 0 6px 20px 0 black; 
+  margin: auto; 
+  font-size: large;
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+

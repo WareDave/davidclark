@@ -54,18 +54,20 @@ class App extends Component {
          
          <Header/>
 <h1 class='center-align'>
-         <a class="btn-floating btn-large waves-effect doom left-align"><Link to='/spam&eggs'> <i href="/spam&eggs" class="fab fa-python"></i></Link>  </a>
-         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/MyApps'><i class="fab fa-app-store-ios"></i> My Apps</Link>  </a> 
-         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/mtg'><i class="fab fa-wizards-of-the-coast"></i> Counter</Link>  </a>
+<div class="btn-group">
+         <a to='/spam&eggs' class="btn-floating btn-large waves-effect doom left-align"><Link to='/spam&eggs'> <i href="/spam&eggs" class="fab fa-python"></i></Link>  </a>
+         <a to='/MyApps' class="waves-effect doom btn-large center-align"><Link class='cock' to='/MyApps'><i class="fab fa-app-store-ios"></i> My Apps</Link>  </a> 
+         <a to='/mtg' class="waves-effect doom btn-large center-align"><Link class='cock' to='/mtg'><i class="fab fa-wizards-of-the-coast"></i> Counter</Link>  </a>
 
          <a href='https://master.d2aw80yfrgom4l.amplifyapp.com/' class="waves-effect doom btn-large center-align" target='blank'><p class='fuck'>Chess<i class="fas fa-chess"></i></p></a>
-         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/dice'></Link> Dice <i class="fab fa-d-and-d"></i></a>
-         <a class="waves-effect doom btn-large center-align"><Link class='cock' to='/contact'>Contact<i class="fas fa-mail-bulk"></i></Link>  </a>   
-        <a class="btn-floating btn-large waves-effect doom right-align"><Link to='/js'><i href="" class="fab fa-js-square"></i>  </Link>  </a>
+         <a to='/dice' class="waves-effect doom btn-large center-align"><Link class='cock' to='/dice'> Dice <i class="fab fa-d-and-d"></i></Link></a>
+         <a to='/contact' class="waves-effect doom btn-large center-align"><Link class='cock' to='/contact'>Contact<i class="fas fa-mail-bulk"></i></Link>  </a>   
+        <a to='/js' class="btn-floating btn-large waves-effect doom right-align"><Link to='/js'><i href="" class="fab fa-js-square"></i>  </Link>  </a>
+        </div>
         </h1>
       <ul class = "collapsible" data-collapsible = "expandable">
          <li>
-            <div class = "collapsible-header red darken-4">
+            <div class = "collapsible-header">
             <i class="fas fa-user-secret black-text"></i>About</div>
             <div class = "collapsible-body center-align">
             <img src="https://i.imgur.com/PlnYW1Um.jpg" alt="header"></img>
@@ -144,7 +146,7 @@ class App extends Component {
             </div>
          </li>
          <li>
-            <div class = "collapsible-header red darken-4">
+            <div class = "collapsible-header">
             <i class="fab fa-dev black-text"></i>Collaboration</div>
             <div class = "collapsible-body center-align"><p>
                  <h1>[ Out The Box ]</h1>
@@ -187,7 +189,7 @@ class App extends Component {
            
          </li>
          <li>
-            <div class = "collapsible-header red darken-4">
+            <div class = "collapsible-header">
             <i class="fas fa-dragon black-text"></i>Mad Skills</div>
             <div class = "collapsible-body center-align "><p>List Me What You Got </p><br/>
             <img src="https://i.imgur.com/ZU91U03s.png" alt="talking head"></img><br/>
