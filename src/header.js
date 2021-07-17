@@ -58,7 +58,7 @@ class Header extends Component {
       for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
       }
-      slides[slideIndex-1].style.display = "block";  
+      // slides[slideIndex-1].style.display = "block";  
      
       setTimeout(showSlides, 9999); // Change image every 2 seconds
     }

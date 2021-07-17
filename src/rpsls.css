@@ -1,0 +1,52 @@
+body {
+  background-color: #dbffff;
+}
+
+h1 {
+  color: #5f4bb6;
+  text-align: center;
+  font-family: "Baloo Tammudu", cursive;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.btn {
+  text-align: center;
+}
+
+button {
+  font-family: "Baloo Tammudu", cursive;
+  font-size: 20px;
+  border-width: 0px 3px 3px 0px;
+  background-color: #011d1d;
+  border-color: #656466;
+  color: #f8f8f8;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+button:active {
+  background-color: seagreen;
+}
+
+h4 {
+  font-family: "Baloo Tammudu", cursive;
+  font-size: 20px;
+  color: #7aa57c;
+  text-shadow: none;
+  text-align: center;
+  line-height: 25px;
+}
+
+div {
+  font-family: "Baloo Tammudu", cursive;
+  font-size: 30px;
+  color: #6c9274;
+  text-shadow: 1px 2px #770000;
+  line-height: 40px;
+}
+
+#refresh {
+  text-align: center;
+  margin-top: 100px;
+}

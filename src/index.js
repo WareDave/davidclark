@@ -10,6 +10,7 @@ import Myapps from './myapps'
 import Contact from './contactme'
 import Dice from './dice'
 import Mtg from './mtg'
+import Rpsls from './rpsls';
 import {Route, Switch} from 'react-router-dom'
 import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
@@ -19,6 +20,7 @@ ReactDOM.render(
     
             <Switch>
                 <Route exact path="/" component={App}/> 
+                <Route exact path='/rpsls' component={Rpsls}></Route>
                <Route exact path="/SearchContainer" component={SearchContainer}/>
                <Route exact path="/spam&eggs" component={Python}/>
                <Route exact path="/EJS" component={Javascripts}/>
