@@ -11,6 +11,7 @@ import Contact from './contactme'
 import Dice from './dice'
 import Mtg from './mtg'
 import Rpsls from './rpsls';
+import Canvas from './canvas';
 import {Route, Switch} from 'react-router-dom'
 import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
@@ -20,6 +21,7 @@ ReactDOM.render(
     
             <Switch>
                 <Route exact path="/" component={App}/> 
+                <Route exact path='/canvas' component={Canvas}></Route>
                 <Route exact path='/rpsls' component={Rpsls}></Route>
                <Route exact path="/SearchContainer" component={SearchContainer}/>
                <Route exact path="/spam&eggs" component={Python}/>

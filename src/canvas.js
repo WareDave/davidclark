@@ -1,4 +1,4 @@
-import React, { Component, Col, Container, Row } from 'react'
+import React, { Component, Col, Container, Row, useEffect, useState } from 'react'
 import {Link} from 'react-router-dom'
 import M from "materialize-css"; 
 import './App.css'
@@ -37,9 +37,12 @@ document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.scrollspy');
   var instances = M.ScrollSpy.init(elems, {scrollOffset: 0, activeClass: 'active', throttle: 100});
 });
+// JS operators for canvas
+// HTMLCanvasElement.getContext()
 
-
-
+var canvas = document.getElementById('canvas');
+var ctx = canvas
+// var ctx2d = canvas.getContext('2d');
 
 
 // canvas operations
