@@ -1,3 +1,13 @@
+/* @operators */
+
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -35,7 +45,7 @@
 }
 body {
   text-align: center;
-  font-family: 'Trochut', cursive;
+  font-family: 'Zen Dots', cursive;
   font-size: 30px;
   display: flex;
   min-height: 100vh;
@@ -94,7 +104,7 @@ h3 {
 }
 
 main {
-  font-family: 'Trochut', cursive;
+  font-family: 'Zen Dots', cursive;
   flex: 1 0 auto;
 }
 
@@ -764,4 +774,7 @@ opacity: .5em;
 }
 
 /* Add a background color on hover */
+
+
+
 
