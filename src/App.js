@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import Header from "./header"
-import Canvas from './canvas';
+// import Canvas from './canvas';
 // import Preloader from './components/Preloader'
 import M from "materialize-css"; 
 import './App.css'
