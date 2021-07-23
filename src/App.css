@@ -773,8 +773,12 @@ opacity: .5em;
   border-right: none; /* Prevent double borders */
 }
 
-/* Add a background color on hover */
-
+/* canvas op */
+canvas {
+  width: 100;
+  height: auto;
+  background: #111;
+}
 
 
 

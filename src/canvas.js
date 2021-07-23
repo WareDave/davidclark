@@ -37,39 +37,32 @@ document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.scrollspy');
   var instances = M.ScrollSpy.init(elems, {scrollOffset: 0, activeClass: 'active', throttle: 100});
 });
-// JS operators for canvas
-// HTMLCanvasElement.getContext()
-
-var canvas = document.getElementById('canvas');
-var ctx = canvas
-// var ctx2d = canvas.getContext('2d');
 
 
 // canvas operations
-const writeText = (info, style = {}) => {
-    const { text, x, y } = info;
-    const { fontSize = 20, fontFamily = 'Arial', color = 'black', textAlign = 'left', textBaseline = 'top' } = style;
-   
-    ctx.beginPath();
-    ctx.font = fontSize + 'px ' + fontFamily;
-    ctx.textAlign = textAlign;
-    ctx.textBaseline = textBaseline;
-    ctx.fillStyle = color;
-    ctx.fillText(text, x, y);
-    ctx.stroke();
-  }
-// character operations
+function getRandom(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}           
+var canvas = () => document.getElementById("starfield"),
+context = canvas.getContext("2d"),
+stars = 500,
+colorrange = [0,60,240];
+for (var i = 0; i < stars; i++) {
+var x = () => Math.random() * canvas.offsetWidth;
+y = Math.random() * canvas.offsetHeight,
+radius = Math.random() * 1.2,
+hue = colorrange[getRandom(0,colorrange.length - 1)],
+sat = getRandom(50,100);
+context.beginPath();
+context.arc(x, y, radius, 0, 360);
+context.fillStyle = "hsl(" + hue + ", " + sat + "%, 88%)";
+context.fill();
+}
 
-useEffect(() => {
-    writeText({ text: 'Killing it!', x: 180, y: 70 });
-   
-    writeText({ text: 'You Know You This Dev', x: 180, y: 70 }, { textAlign: 'right' });
-   
-    writeText({ text: 'www.DaveTheClark.com', x: 180, y: 130 }, { fontSize: 30, color: 'green', textAlign: 'center' });
-   
-    writeText({ text: 'please use chat bot to reach me'+"or call"+ '303-641-6954', x: 180, y: 200 }, { fontSize: 14, fontFamily: 'cursive', color: 'blue', textAlign: 'center' });
-  }, []);
-
+// canvas js
+var canvas = document.getElementById("starfield"),
+context = canvas.getContext("2d"),
+stars = 200;
 
 
 // componet and HTML
@@ -95,11 +88,11 @@ class Canvas extends Component {
        <h1>React Canvas The Pro Trick</h1>
        <h2>using this trick saves alot os time.</h2>
        <p>this is a scale down from what i use on some of my app.    
-    <br></br></p>if paired with a back end via routes. you can sen all types of data to your api.
+    <br></br></p>if paired with a back end via routes. you can send all types of data to your api.
         <div className="App">
-      <h3>Write on the canvas how it works - <a href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">Dave's GitHub</a></h3>
-      <p>code listed below. Please use it, break it, have fun, get messy.</p>
-      <canvas ref={canvas}></canvas>
+      <h3>Starfield - <a href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">Dave's GitHub</a></h3>
+     
+     <canvas id='starfield' width='600' height='500'></canvas>
     </div>        
            
             <code>
