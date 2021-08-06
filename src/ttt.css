@@ -1,58 +1,31 @@
-h1 {
-    color: rgb(234, 0, 255);
-    font-size: 45px;
+:root {
+    --cell-size: 80px;
+    --border: 1px solid black;
+  }
+  
+main{
+    background-color: blueviolet;
 }
 
-/* 3*3 Grid */
-#b1, #b2, #b3, #b4, #b5, 
-#b6, #b7, #b8, #b9 {
-    width: 80px;
-    height: 52px;
-    margin: auto;
-    border: 1px solid rgb(255, 0, 200);
-    border-radius: 6px;
-    font-size: 30px;
+  table {
+    background-color: darkmagenta;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+  }
+  
+  td {
+    color: hotpink;  
+    width: var(--cell-size);
+    height: var(--cell-size);
     text-align: center;
-}
-
-/* Reset Button */
-#but {
-    box-sizing: border-box;
-    box-shadow: rebeccapurple;
-    width: 95px;
-    height: 40px;
-    border: 1px solid rgb(112, 41, 64);
-    margin: auto;
-    border-radius: 4px;
-    font-family: Verdana, 
-        Geneva, Tahoma, sans-serif;
-
-    background: linear-gradient(to right,
-        red 20%, orange 20% 40%, yellow 40% 60%, green 60% 80%, blue 80%);
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-/* Player turn space */
-#print {
-    font-family: Verdana, 
-        Geneva, Tahoma, sans-serif;
-
-    color: dodgerblue;
-    font-size: 20px;
-}
-
-/* Main Contianer */
-#main {
-    text-align: center;
-}
-
-/* Game Instruction Text */
-#ins {
-    font-family: Verdana, 
-        Geneva, Tahoma, sans-serif;
-          
-    color: dodgerblue;
-    font-size: 17px;
-}
+    line-height: var(--cell-size);
+    font-size: calc(var(--cell-size) / 2);
+  }
+  
+  td + td {
+    border-left: var(--border);
+  }
+  
+  tr + tr td {
+    border-top: var(--border);
+  }
