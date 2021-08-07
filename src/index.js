@@ -10,7 +10,7 @@ import Myapps from './myapps'
 import Contact from './contactme'
 import Dice from './dice'
 import Mtg from './mtg'
-// import Ttt from './ttt';
+import Ttt from './ttt';
 import {Route, Switch} from 'react-router-dom'
 import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
@@ -20,6 +20,7 @@ ReactDOM.render(
     
             <Switch>
                 <Route exact path="/" component={App}/> 
+                <Route exact path='/TicTacToe' component={Ttt}></Route>
                <Route exact path="/SearchContainer" component={SearchContainer}/>
                <Route exact path="/spam&eggs" component={Python}/>
                <Route exact path="/EJS" component={Javascripts}/>

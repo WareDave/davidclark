@@ -1,112 +1,67 @@
 import React, { Component, Col, Container, Row } from 'react'
 import {Link} from 'react-router-dom'
 import M from "materialize-css"; 
-import './Ttt.css'
+import './ttt.css'
 import Header from "./header"
 const $ = window.$;
 M.AutoInit();
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.tap-target');
-  var instances = M.TapTarget.init(elems, {});
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.tooltipped');
-  var instances = M.Tooltip.init(elems, {});
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.modal');
-  var instances = M.Modal.init(elems, {});
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.materialboxed');
-  var instances = M.Materialbox.init(elems, {duration: 400 });
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.dropdown-trigger');
-  var instances = M.Dropdown.init(elems, {hover: true});
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.scrollspy');
-  var instances = M.ScrollSpy.init(elems, {scrollOffset: 0, activeClass: 'active', throttle: 100});
-});
 
 
+const statusDisplay = document.querySelector('.game--status');
+/*
+Here we declare some variables that we will use to track the 
+game state throught the game. 
+*/
+/*
+We will use gameActive to pause the game in case of an end scenario
+*/
+let gameActive = true;
+/*
+We will store our current player here, so we know whos turn 
+*/
+let currentPlayer = "X";
+/*
+We will store our current game state here, the form of empty strings in an array
+ will allow us to easily track played cells and validate the game state later on
+*/
+let gameState = ["", "", "", "", "", "", "", "", ""];
+/*
+Here we have declared some messages we will display to the user during the game.
+Since we have some dynamic factors in those messages, namely the current player,
+we have declared them as functions, so that the actual message gets created with 
+current data every time we need it.
+*/
+const winningMessage = () => `Player ${currentPlayer} has won!`;
+const drawMessage = () => `Game ended in a draw!`;
+const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
+/*
+We set the inital message to let the players know whose turn it is
+*/
+// statusDisplay.innerHTML = currentPlayerTurn();
+function handleCellPlayed() {
 
-
-
-
-const cells = Array.from(document.querySelectorAll("td"))
-const lines = [
-  [0, 1, 2],
-  [3, 4, 5],
-  [6, 7, 8],
-  [0, 3, 6],
-  [1, 4, 7],
-  [2, 5, 8],
-  [0, 4, 8],
-  [2, 4, 6]
-]
-const moveIndicator = document.querySelector("p span")
-let onMove = "×",
-  gameOver = false
-
-const getText = indexArray => indexArray.reduce((str, i) => str + cells[i].textContent, "")
-
-const checkWin = () => {
-  const winningLine = lines.find(line => ["×××", "○○○"].includes(getText(line)))
-  if (!winningLine)
-    return false
-  winningLine.forEach(index => cells[index].style.background = "#66ff66")
-  gameOver = true
-  return true
 }
+function handlePlayerChange() {
 
-const checkDraw = () => {
-  if (cells.some(cell => !cell.textContent))
-    return false
-  cells.forEach(cell => cell.style.background = "lightgray")
-  gameOver = true
-  return true
 }
+function handleResultValidation() {
 
-const markCell = e => {
-  if (gameOver || e.target.textContent)
-    return
-
-  e.target.textContent = onMove
-
-  if (checkWin())
-    return
-
-  if (checkDraw())
-    return
-
-  onMove = (onMove === "×") ? "○" : "×"
-  moveIndicator.textContent = onMove
 }
+function handleCellClick() {
 
-const startNewGame = () => {
-  gameOver = false
-  onMove = "×"
-  moveIndicator.textContent = "×"
-  cells.forEach(cell => {
-    cell.textContent = ""
-    cell.style.background = ""
-  })
 }
+function handleRestartGame() {
 
-cells.forEach(cell => cell.addEventListener("click", markCell))
-document.querySelector("button").addEventListener("click", startNewGame)  
-  
-
+}
+/*
+And finally we add our event listeners to the actual game cells, as well as our 
+restart button
+*/
+document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', handleCellClick));
+// document.querySelector('.game--restart').addEventListener('click', handleRestartGame);
 
 
 
@@ -115,12 +70,14 @@ document.querySelector("button").addEventListener("click", startNewGame)
 
 class Ttt extends Component {
  
-  componentDidMount() {
-    var elem = document.querySelector('.carousel');
-    var instance = M.Carousel.init(elem, {fullWidth: true,
-      indicators: true });
-  }
 
+
+
+
+
+
+
+    
 
 
 
@@ -129,11 +86,28 @@ class Ttt extends Component {
     return(
       
       <main>
-        <Header/>
+      
        
+      <script>
+      document.querySelector('.game--restart').addEventListener('click', handleRestartGame);
+          </script>     
            
-           
-
+      <section>
+        <h1 class="game--title">Tic Tac Toe</h1><br></br>
+        <div class="game--container">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+        </div>
+        <h2 class="game--status"></h2>
+        <button class="game--restart">Restart Game</button>
+    </section>
       
   
 
