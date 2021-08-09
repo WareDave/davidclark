@@ -53,6 +53,7 @@ class App extends Component {
       <main>
          
          <Header/>
+         {/* link operators */}
 <h1 class='center-align'>
 <div class="btn-group">
          <a to='/spam&eggs' class="btn-floating btn-large waves-effect doom left-align"><Link to='/spam&eggs'> <i href="/spam&eggs" class="fab fa-python"></i></Link>  </a>
@@ -65,7 +66,9 @@ class App extends Component {
         <a to='/js' class="btn-floating btn-large waves-effect doom right-align"><Link to='/js'><i href="" class="fab fa-js-square"></i>  </Link>  </a>
         </div>
         </h1>
+        {/* acord list  */}
       <ul class = "collapsible" data-collapsible = "expandable">
+        {/* first list item */}
          <li>
             <div class = "collapsible-header">
             <i class="fas fa-user-secret black-text"></i>About</div>
@@ -145,6 +148,7 @@ class App extends Component {
                 </div>
             </div>
          </li>
+        {/* list item 2 */}
          <li>
             <div class = "collapsible-header">
             <i class="fab fa-dev black-text"></i>Collaboration</div>
@@ -188,6 +192,7 @@ class App extends Component {
             </div>
            
          </li>
+         {/* list item 3 */}
          <li>
             <div class = "collapsible-header">
             <i class="fas fa-dragon black-text"></i>Mad Skills</div>
@@ -213,12 +218,13 @@ class App extends Component {
             </div>
          </li>
          
-        
+        {/* QR codes */}
         
       </ul>	 
       <p class='center-align'>
       <a href='https://www.linkedin.com/feed/'><img class='spike1' src='https://i.imgur.com/ZMpPE4Z.png' alt='dave clark linked in qr dev'></img></a><a href='/' alt='dave clark home dev website '><img class='spike1' src='https://i.imgur.com/SZJEs9e.png'></img></a> <a href='https://github.com/WareDave'><img class='spike1' src='https://i.imgur.com/LsOc40a.png'></img></a><a href="mailto:davetheclark87@gmail.com"><img class='spike1' src='https://i.imgur.com/yqMMdJe.png'></img></a>  
       </p>
+      {/* boiler plate footer */}
  <footer>
           <div class="footer-copyright">
             <div class="container">
