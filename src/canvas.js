@@ -97,7 +97,6 @@ class Canvas extends Component {
            
          
 
-
                
            
 {/* boiler plate footer */}
