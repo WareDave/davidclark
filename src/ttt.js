@@ -88,9 +88,7 @@ class Ttt extends Component {
       <main>
       
        
-      <script>
-      document.querySelector('.game--restart').addEventListener('click', handleRestartGame);
-          </script>     
+        
            
       <section>
         <h1 class="game--title">Tic Tac Toe</h1><br></br>
@@ -106,7 +104,7 @@ class Ttt extends Component {
             <div data-cell-index="8" class="cell"></div>
         </div>
         <h2 class="game--status"></h2>
-        <button class="game--restart">Restart Game</button>
+        <button onClick='.addEventListener(handleRestartGame)' class="game--restart">Restart Game</button>
     </section>
       
   

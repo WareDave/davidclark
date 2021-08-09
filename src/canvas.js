@@ -95,23 +95,7 @@ class Canvas extends Component {
      <canvas id='starfield' width='600' height='500'></canvas>
     </div>        
            
-            <code>
-           
-{/* const writeText = (info, style = {}) => { 
-   // const { text, x, y } = info;
-   // const { fontSize = 20, fontFamily = 'Arial', color = 'black', textAlign = 'left', textBaseline = 'top' } = style;
-   
-   // ctx.beginPath();
-    ctx.font = fontSize + 'px ' + fontFamily;
-    ctx.textAlign = textAlign;
-    ctx.textBaseline = textBaseline;
-    ctx.fillStyle = color;
-    ctx.fillText(text, x, y);
-    ctx.stroke();
-  }
-  */}
-
-            </code>
+         
 
 
                
