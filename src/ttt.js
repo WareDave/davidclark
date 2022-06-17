@@ -138,14 +138,14 @@ class Ttt extends Component {
         moveReset = <a href="#" onClick={() => this.jumpTo(move)}>{desc}</a>
       } else {
         if (step.xIsNext) {
-          desc = 'Move #' + step;
+          desc = 'Moves' ;
           movesO.push(
             <li key={move}>
               <a href="#" onClick={() => this.jumpTo(move)}>{desc}</a>
             </li>
           )
         } else {
-          desc = 'Move #' + step;
+          desc = 'Moves' ;
           movesX.push(
             <li key={move}>
               <a href="#" onClick={() => this.jumpTo(move)}>{desc}</a>
