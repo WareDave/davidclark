@@ -136,7 +136,7 @@ class Header extends Component {
 
   <div class="text2">
   [ Dave Clark ]<br/>
-       <i class='spike3' href="https://www.python.org/" class="fab fa-python"></i>  <i class='spike3' href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square"></i>  <i class="fab fa-html5"></i>  <i class="fab fa-css3-alt"></i>  <i class="fab fa-node-js"></i>  <i class="fab fa-react"></i> <i class="fab fa-angular"></i> <i class="fab fa-bootstrap"></i>  <i class="fab fa-aws"></i>  <a href="https://github.com/WareDave" class="fa fa-github white-text"></a>  <i class='spike3' href="https://company.wizards.com/content/games" class="fab fa-d-and-d white-text"></i><br/>
+       <i  href="https://www.python.org/" class="fab fa-python"></i>  <i id='spike3' href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square"></i>  <i class="fab fa-html5"></i>  <i class="fab fa-css3-alt"></i>  <i class="fab fa-node-js"></i>  <i class="fab fa-react"></i> <i class="fab fa-angular"></i> <i class="fab fa-bootstrap"></i>  <i class="fab fa-aws"></i>  <a href="https://github.com/WareDave" class="fa fa-github white-text"></a>  <i id='spike3' href="https://company.wizards.com/content/games" class="fab fa-d-and-d white-text"></i><br/>
         JQuery | JSON | SQL | PostgreSQL | MySQL | SQLite | MongoDB<br/>
         Style: SASS |  Bulma  <br/>
         Testing: Postman | VScode | Sublime <br/>
