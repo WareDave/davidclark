@@ -174,14 +174,14 @@ class Ttt extends Component {
         <div className="game-body">
           <div className="game-left">
             <div className="title">Player: X</div>
-            <ol>{movesX}</ol>
+            {/* <ol>{movesX}</ol> */}
           </div>
           <div className="game-main">
             <Board squares={current.squares} onClick={(i) => this.handleClick(i)} />
           </div>
           <div className="game-right">
             <div className="title">Player: O</div>
-            <ol>{movesO}</ol>
+            {/* <ol>{movesO}</ol> */}
           </div>
         </div>
       </div>
