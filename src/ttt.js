@@ -156,6 +156,15 @@ class Ttt extends Component {
     });
 
     return (
+
+      <main>
+
+
+<Header/>
+          <div className="parallax"></div>
+          
+
+
       
       <div className="game-wrap">
         <div className="game-header">
@@ -176,6 +185,21 @@ class Ttt extends Component {
           </div>
         </div>
       </div>
+
+
+      <footer>
+          <div class="footer-copyright">
+            <div class="container">
+             Forged In Fire By The <a class="green-text" href="https://github.com/WareDave">WareDave  <i class="fa fa-github"></i> © 2020 Copyright</a> 
+         
+            </div>
+          </div>
+        
+ </footer>     
+
+
+
+      </main>
     );
   }
 }
