@@ -58,7 +58,7 @@ class App extends Component {
 <div class="btn-group">
          <a to='/spam&eggs' class="btn-floating btn-large waves-effect doom left-align"><Link to='/spam&eggs'> <i href="/spam&eggs" class="fab fa-python"></i></Link>  </a>
          <a to='/MyApps' class="waves-effect doom btn-large center-align"><Link class='cock' to='/MyApps'><i class="fab fa-app-store-ios"></i> My Apps</Link>  </a> 
-         <a to='/mtg' class="waves-effect doom btn-large center-align"><Link class='cock' to='/mtg'><i class="fab fa-wizards-of-the-coast"></i> Counter</Link>  </a>
+         {/* <a to='/mtg' class="waves-effect doom btn-large center-align"><Link class='cock' to='/mtg'><i class="fab fa-wizards-of-the-coast"></i> Counter</Link>  </a> */}
          <a to='/mtg' class="waves-effect doom btn-large center-align"><Link class='cock' to='/TicTacToe'><i class=""></i> Tic Tac Toe</Link>  </a>
          <a href='https://master.d2aw80yfrgom4l.amplifyapp.com/' class="waves-effect doom btn-large center-align" target='blank'><p class='fuck'>Chess<i class="fas fa-chess"></i></p></a>
          <a to='/dice' class="waves-effect doom btn-large center-align"><Link class='cock' to='/dice'> Dice <i class="fab fa-d-and-d"></i></Link></a>
