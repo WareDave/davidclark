@@ -87,7 +87,7 @@ class Header extends Component {
        <li><Link class="fas fa-search fa-1x black-text" to="/SearchContainer"></Link></li>
        <a class='dropdown-trigger fas fa-dice-d20 fa-2x black-text' href='/' data-target='dropdown1'></a>
 
-
+{/* drop */}
 <ul id='dropdown1' class='dropdown-content'>
   <li><a class="pink-text" href="https://post-hub.herokuapp.com/">Post-Hub</a></li>
   <li><a class="pink-text" href="https://captains-tools.herokuapp.com/">StarFleet</a></li>
