@@ -80,7 +80,7 @@ class Header extends Component {
   <div class="nav-wrapper red darken-4">
     <a href="/" class="brand-logo center black-text">[ DaveHome ]</a>
     <ul id="nav-mobile" class="left hide-on-med-and-down">
-    <li><a  href="https://profiles.generalassemb.ly/profiles/david-clark" class="fab fab fa-old-republic fa-2x black-text"></a></li>
+    <li><a  href="https://www.davetheclark.com" class="fab fab fa-old-republic fa-2x black-text"></a></li>
       
     </ul>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
