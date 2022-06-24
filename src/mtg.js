@@ -2,6 +2,7 @@ import React, { Component, Col, Container, Row } from 'react'
 import {Link} from 'react-router-dom'
 import M from "materialize-css"; 
 import Header from './header'
+import './mtg.css'
 import './App.css'
 const $ = window.$;
 M.AutoInit();
@@ -50,85 +51,38 @@ class Mtg extends Component {
     const instance = M.Carousel.init(elem, {fullWidth: true,
       indicators: true });
 
-      let userTron = prompt('Who are you');
-      alert(userTron + "Life Starts at 20 For all MTG players")
+      // let userTron = prompt('Who are you');
+      alert("Life Starts at 20 For all MTG players")
 
-      function UserTron(){
-        document.getElementById('userTron').innerHTML = userTron; 
+      // function UserTron(){
+      //   document.getElementById('userTron').innerHTML = userTron; 
        
-      }
+      // }
 
-      let userFoe = prompt('Who are you playing');
-      alert(userFoe + "Doom is in the cards if you play" + userTron)
+      // let userFoe = prompt('Who are you playing');
+      // alert(userFoe + " Doom is in the cards if you play" + userTron)
 
-      function UserFoe(){
-        document.getElementById('userTron').innerHTML = userFoe; 
+      // function UserFoe(){
+      //   document.getElementById('userTron').innerHTML = userFoe; 
        
-      } 
+      // } 
       
       
 
      
       
 
-      let YourCounter = 20;
-      let FoeCounter = 20;
-      let Mode = "0"; 
-      
-      function YourIncrease() {
-        YourCounter++;
-        document.getElementById('YourCount').innerHTML = YourCounter;
-         
-      }
-      
-      function YourDecrease() {
-        YourCounter--;
-        document.getElementById('YourCount').innerHTML = YourCounter;
-        
-      }
-      
-      function FoeIncrease() {
-        FoeCounter++;
-        document.getElementById('FoeCount').innerHTML = FoeCounter;
-        
-      }
-      
-      function FoeDecrease() {
-        FoeCounter--;
-        document.getElementById('FoeCount').innerHTML = FoeCounter;
-        
-      }  
-      
-      function Reset() {
-        if (true) { 
-          YourCounter = 20;
-          FoeCounter = 20;
-          document.getElementById('YourCount').innerHTML = YourCounter;
-          document.getElementById('FoeCount').innerHTML = FoeCounter;
-        }
-      }
-      
-      function prepareOnClicks() {
-          document.getElementById('YourUp').onclick = function() { YourIncrease(); };
-          document.getElementById('YourDown').onclick = function() { YourDecrease(); };
-          document.getElementById('FoeUp').onclick = function() { FoeIncrease(); };
-          document.getElementById('FoeDown').onclick = function() { FoeDecrease(); };
-          document.getElementById('reset').onclick = function() { Reset(); };
-          
-      }
-      
-      window.onload = function() {
-        prepareOnClicks();
-        const elem = document.querySelector('#YourDown');
-        let draggie = ( elem, {
-          axis: 'y'
-        });
-        document.getElementById('YourCount').innerHTML = YourCounter;
-        document.getElementById('FoeCount').innerHTML = FoeCounter;
-      };
+      var counter = 20;
 
-    
-
+      $("#plus").click(function(){
+        counter++;
+        $("#count").text(counter);
+      });
+      
+      $("#minus").click(function(){
+        counter--;    
+        $("#count").text(counter);
+      });
       
     
   }
@@ -145,28 +99,19 @@ class Mtg extends Component {
       <main>
           <Header/>
           <div className="parallax"></div>
-          <div id="container1">
-  <div class="left1">
-    <label id="YourName"><div id="userTron">{document.getElementById('UserTron')}The Winner</div></label>
-    <div id="YourLife">
-      <div id="YourUp"><i class="fas fa-arrow-circle-up"></i></div>
-      <div id="YourCount">20</div>
-      <div id="YourDown"><i class="fas fa-arrow-circle-down"></i></div>
-    </div>
-  </div>
-  <div class="right1">
-    <label id="FoeName">Some Cunt</label>
-    <div id="FoeLife">
-      <div id="FoeUp"><i class="fas fa-arrow-circle-up"></i></div>
-      <div id="FoeCount">20</div>
-      <div id="FoeDown"><i class="fas fa-arrow-circle-down"></i></div>
-    </div>
-  </div>
-</div>
-<div id="reset">
-<i class="fas fa-undo"></i></div>
-<div id="commander">
-<i class="fab fa-wizards-of-the-coast"></i></div><br/><br/>
+          <h1 >( You ) </h1>
+          <p class="button" id="minus">-</p>
+             <p id="count">20</p>
+                <p class="button" id="plus">+</p><br></br><br></br><br></br>
+
+
+                <div className="parallax"></div>
+          <h1 >( Foe ) </h1>
+          <p class="button" id="minus">-</p>
+             <p id="count">20</p>
+                <p class="button" id="plus">+</p><br></br><br></br><br></br>
+
+              
 
 
 
