@@ -23,7 +23,7 @@ ReactDOM.render(
                 <Route exact path='/TicTacToe' component={Ttt}></Route>
                <Route exact path="/SearchContainer" component={SearchContainer}/>
                <Route exact path="/spam&eggs" component={Python}/>
-               <Route exact path="/EJS" component={Javascripts}/>
+               <Route exact path="/JS" component={Javascripts}/>
                <Route exact path="/MyApps" component={Myapps}/> 
                <Route exact path="/contact" component={Contact}/>
                <Route exact path='/dice' component={Dice}/>

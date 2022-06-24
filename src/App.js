@@ -63,7 +63,7 @@ class App extends Component {
          <a href='https://master.d2aw80yfrgom4l.amplifyapp.com/' class="waves-effect doom btn-large center-align" target='blank'><p class='fuck'>Chess<i class="fas fa-chess"></i></p></a>
          <a to='/dice' class="waves-effect doom btn-large center-align"><Link class='cock' to='/dice'> Dice <i class="fab fa-d-and-d"></i></Link></a>
          <a to='/contact' class="waves-effect doom btn-large center-align"><Link class='cock' to='/contact'>Contact<i class="fas fa-mail-bulk"></i></Link>  </a>   
-        <a to='/js' class="btn-floating btn-large waves-effect doom right-align"><Link to='/js'><i href="" class="fab fa-js-square"></i>  </Link>  </a>
+        <a to='/JS' class="btn-floating btn-large waves-effect doom right-align"><Link to='/JS'><i href="" class="fab fa-js-square"></i>  </Link>  </a>
         </div>
         </h1>
         {/* acord list  */}
