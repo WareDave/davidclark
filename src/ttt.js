@@ -180,7 +180,7 @@ class Ttt extends Component {
             <Board squares={current.squares} onClick={(i) => this.handleClick(i)} />
           </div>
           <div className="game-right">
-            <div className="title">Player: O</div>
+            <div id='fuckery' className="title">Player: O</div>
             {/* <ol>{movesO}</ol> */}
           </div>
         </div>

@@ -73,29 +73,28 @@ class Header extends Component {
       
       <main>
          
-         <div class="navbar-fixed red darken-4">
+         <div class="navbar-fixed">
        
        <nav>
        
   <div class="nav-wrapper red darken-4">
-    <a href="/" class="brand-logo center black-text">[ DaveHome ]</a>
+    <a href="/"  class="brand-logo center black-text" >[ DaveHome ]</a>
     <ul id="nav-mobile" class="left hide-on-med-and-down">
     <li><a  href="https://www.davetheclark.com" class="fab fab fa-old-republic fa-2x black-text"></a></li>
       
     </ul>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
-       <li><Link class="fas fa-search fa-1x black-text" to="/SearchContainer"></Link></li>
-       <a class='dropdown-trigger fas fa-dice-d20 fa-2x black-text' href='/' data-target='dropdown1'></a>
+       <li><Link class="fas fa-search fa-1x " to="/SearchContainer"></Link></li>
+       <a class='dropdown-trigger fas fa-dice-d20 fa-2x red-text-darken-8' href='/' data-target='dropdown1'></a>
 
 {/* drop */}
 <ul id='dropdown1' class='dropdown-content'>
   <li><a class="pink-text" href="https://post-hub.herokuapp.com/">Post-Hub</a></li>
-  <li><a class="pink-text" href="https://captains-tools.herokuapp.com/">StarFleet</a></li>
+  <li><a class="pink-text" href="https://captains-tools.herokuapp.com/">S.F.</a></li>
   <li class="divider" tabindex="-1"></li>
   <li><a class="blue-text" href="https://www.linkedin.com/in/dave-the-clark/">LinkedIn</a></li>
   <li><a class="black-text" href="https://github.com/WareDave">GitHub</a></li>
-  <li><a class="red-text" href="https://profiles.generalassemb.ly/profiles/david-clark">GA Profile</a></li>
-  <li><a class='red-text' href='https://www.soylentshenanigans.com/'></a>soylent<br/>shenanigans</li>
+ 
 </ul>
      
     </ul>

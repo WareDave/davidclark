@@ -58,18 +58,29 @@ class Myapps extends Component {
         <Header/>
         <p class='center-align'><h1 className="header pink-text">[ Forged In Fire By Dave Clark ]</h1><br/>
            
-           Express App:<br/>
-           <img src="https://i.imgur.com/ioK9cB8m.jpg" alt='starfleet'></img><br/>
+           Express App:<br/><br/><br/>
+           <img src="https://i.imgur.com/ioK9cB8m.jpg" alt='starfleet'></img><br/><br/><br/>
            <a class="btn waves-effect waves-purple pink light-blue-text darken-text-2" href="https://captains-tools.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class = "material-icons">whatshot</i>Captains Log<i class = "material-icons">whatshot</i></a><br/>
-           React Flask:<br/>
+           React Flask:<br/><br/><br/>
            <img src="https://i.imgur.com/4TNapS6m.jpg" alt='post-hub'></img><br/>
                <a class="btn waves-effect waves-purple pink grey-text darken-text-2" href="https://post-hub.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class = "material-icons">whatshot</i>Post-Hub<i class = "material-icons">whatshot</i></a><br/>
-           visit me or see my work:<br/>
+           visit me or see my work:<br/><br/><br/>
            <a class="btn waves-effect waves-purple white blue-text darken-text-2" href="https://www.linkedin.com/in/dave-the-clark/" target="_blank" rel="noopener noreferrer">Linked<i class="fa fa-linkedin"></i></a><br/>
            <a class="btn waves-effect waves-purple red black-text darken-text-2" href="https://github.com/WareDave" target="_blank" rel="noopener noreferrer">Github <i class="fa fa-github"></i></a>
            <a class="btn waves-effect waves-purple black red-text darken-text-2" href="https://profiles.generalassemb.ly/profiles/david-clark" target="_blank" rel="noopener noreferrer">GA</a>
 
            </p>
+
+           <div>
+            <h1>[ SCK ]</h1>
+        <img class='balls' src="https://i.imgur.com/U427EG1.jpg" alt="link"></img><br/> 
+        <h4 class="center">Follow On<br/>
+    <p class='center-align'><a href="https://www.instagram.com/sobercoloradokids/"><img class='jordi center-align' src="https://i.imgur.com/afko6pK.png"   target='blank'></img> </a>  <a href="https://www.facebook.com/SoberColoradoKids" target='blank'><img class='jordi center-align' src="https://i.imgur.com/J9ikY9T.png" ></img></a> </p>     
+    </h4>
+       <p>Worked On :<br/>
+       Developed and maintain<a href='https://www.sobercoloradokids.com/'>www.sobercoloradokids.com</a></p>
+            </div>
+
            <p class='center-align'>
            <h1 class='center-align'>[ Out The Box ]</h1>
                   <a href='https://www.instagram.com/outthebox303/' target='blank'><img class='balls' src="https://i.imgur.com/engcPUw.jpg" alt="link"></img></a><br/>

@@ -11,6 +11,7 @@ import Contact from './contactme'
 import Dice from './dice'
 import Mtg from './mtg'
 import Ttt from './ttt';
+// import Mine from './mine';
 import {Route, Switch} from 'react-router-dom'
 import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
@@ -28,6 +29,7 @@ ReactDOM.render(
                <Route exact path="/contact" component={Contact}/>
                <Route exact path='/dice' component={Dice}/>
                <Route exact path='/mtg' component={Mtg} />
+               {/* <Route exact path='/mine' component={Mine} /> */}
                 <Route path="*" component={PageNotFound} /> 
             </Switch>
            
