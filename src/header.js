@@ -78,7 +78,7 @@ class Header extends Component {
        <nav>
        
   <div class="nav-wrapper red darken-4">
-    <a href="/"  class="brand-logo center black-text" >[ DaveHome ]</a>
+    <a href="/"  class="brand-logo center black-text" >[ Dave (☆)  Home ]</a>
     <ul id="nav-mobile" class="left hide-on-med-and-down">
     <li><a  href="https://www.davetheclark.com" class="fab fab fa-old-republic fa-2x black-text"></a></li>
       
