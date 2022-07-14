@@ -213,7 +213,7 @@ class App extends Component {
             <img src="https://i.imgur.com/ZU91U03s.png" alt="talking head"></img><br/>
             <i class="fab fa-python"></i>  <i href="https://en.wikipedia.org/wiki/JavaScript" class="fab fa-js-square"></i>  <i class="fab fa-html5"></i>  <i class="fab fa-css3-alt"></i>  <i class="fab fa-node-js"></i>  <i class="fab fa-react"></i>  <i class="fab fa-angular"></i>  <i class="fab fa-bootstrap"></i>  <i class="fab fa-aws"></i>  <a href="https://github.com/WareDave" class="fa fa-github black-text"></a>  <i href="https://company.wizards.com/content/games" class="fab fa-d-and-d"></i><br/>
          <p> JQuery | JSON | SQL | PostgreSQL | MySQL | SQLite | MongoDB<br/>
-          Style: SASS |  Bulma  <br/>
+          Style: SCSS |  Bulma  <br/>
           Testing: Postman | VScode | Sublime <br/>
           CLI: Terminal | cmd | Bash 
           OS: <i class="fab fa-apple"></i> | <i class="fab fa-linux"></i> | <i class="fab fa-windows"></i></p><br/> 
