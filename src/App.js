@@ -217,7 +217,9 @@ class App extends Component {
           Testing: Postman | VScode | Sublime <br/>
           CLI: Terminal | cmd | Bash 
           OS: <i class="fab fa-apple"></i> | <i class="fab fa-linux"></i> | <i class="fab fa-windows"></i></p><br/> 
-          <p> MongoDB<br/>
+          <p> Wire Framing<br/>
+              <img src="https://i.imgur.com/ASgoFMe.png" alt="propic1"></img><br/>
+           MongoDB<br/>
               <img src="https://i.imgur.com/xApirqjl.jpg" alt="propic1"></img><img src="https://i.imgur.com/ZQu9E6Ol.jpg" alt="sample"></img><img src="https://i.imgur.com/MX8iQirl.jpg" alt='stuff'></img><br/>
               Python Flask<br/>
               <img src="https://i.imgur.com/vtQMEgXl.jpg" alt="davesballs"></img><img src="https://i.imgur.com/2TFR9Fyl.jpg" alt="junk"></img><img src="https://i.imgur.com/rnbmYYKl.jpg" alt="newpic"></img><br/>
